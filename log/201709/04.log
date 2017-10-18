@@ -1,0 +1,629 @@
+[ 2017-09-04T22:33:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：1.059000s][吞吐率：0.94req/s] [内存消耗：2,974.31kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ed5d4786-d384-48c9-b450-a45397b65249',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.038000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (1,3,2,65) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-09-04T22:33:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] tp5.com/api/v1/theme/1 [运行时间：0.636000s][吞吐率：1.57req/s] [内存消耗：3,019.73kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplexThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'efeaaf89-18e7-4b66-959b-f0f246ae1cdf',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplexThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.024000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-04T22:37:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] tp5.com/api/v1/theme/1 [运行时间：0.507000s][吞吐率：1.97req/s] [内存消耗：3,019.73kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplexThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3a1d5af8-b2dd-4441-abfc-b14db8537499',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplexThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-09-04T23:21:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=1
+[ log ] tp5.com/api/v1/product/recent?count=1 [运行时间：0.917000s][吞吐率：1.09req/s] [内存消耗：1,595.84kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.product',
+    2 => 'getComplexThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'af55efd5-6a4a-459b-aa20-4bdf212fa482',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '1',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-04T23:22:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=1
+[ log ] tp5.com/api/v1/product/recent?count=1 [运行时间：0.878000s][吞吐率：1.14req/s] [内存消耗：1,595.89kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8e94c2b6-c379-4d6f-b6ca-7de518981ce9',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '1',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-04T23:24:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=1
+[ log ] tp5.com/api/v1/product/recent?count=1 [运行时间：0.867000s][吞吐率：1.15req/s] [内存消耗：1,595.89kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f75c10cb-952a-409a-9686-98ec6b5503f1',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '1',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-04T23:27:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=1
+[ log ] tp5.com/api/v1/product/recent?count=1 [运行时间：0.864000s][吞吐率：1.16req/s] [内存消耗：1,595.89kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9df656b0-c0ea-48d3-8411-3cd04c1edeb0',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '1',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-04T23:27:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] tp5.com/api/v1/product/recent [运行时间：0.880000s][吞吐率：1.14req/s] [内存消耗：1,595.66kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2ae78873-99cc-4f07-a486-5f66268b35d5',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-04T23:28:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=1
+[ log ] tp5.com/api/v1/product/recent?count=1 [运行时间：0.855000s][吞吐率：1.17req/s] [内存消耗：1,595.89kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e070cb70-6858-4cc2-9a6c-104e27865425',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '1',
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-04T23:30:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=1
+[ log ] tp5.com/api/v1/product/recent?count=1 [运行时间：0.915000s][吞吐率：1.09req/s] [内存消耗：1,655.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '53dcd899-c575-4015-aab1-38d630fa54c4',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:23]
+
+---------------------------------------------------------------
+[ 2017-09-04T23:31:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=1
+[ log ] tp5.com/api/v1/product/recent?count=1 [运行时间：0.862000s][吞吐率：1.16req/s] [内存消耗：1,655.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '26b529a8-2663-4848-b4db-7503fd477fea',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:23]
+
+---------------------------------------------------------------
+[ 2017-09-04T23:31:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=1
+[ log ] tp5.com/api/v1/product/recent?count=1 [运行时间：0.855000s][吞吐率：1.17req/s] [内存消耗：1,655.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b6a44302-5cd8-42d2-a60e-c0015761d334',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:23]
+
+---------------------------------------------------------------
+[ 2017-09-04T23:31:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=3
+[ log ] tp5.com/api/v1/product/recent?count=3 [运行时间：0.856000s][吞吐率：1.17req/s] [内存消耗：1,655.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f61de122-347f-43f2-83e7-2487a198742a',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:23]
+
+---------------------------------------------------------------
+[ 2017-09-04T23:31:40+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=2
+[ log ] tp5.com/api/v1/product/recent?count=2 [运行时间：0.861000s][吞吐率：1.16req/s] [内存消耗：1,655.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '72767a9b-6607-4b6c-8559-ee60cd91eb93',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:23]
+
+---------------------------------------------------------------
+[ 2017-09-04T23:32:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=5
+[ log ] tp5.com/api/v1/product/recent?count=5 [运行时间：0.870000s][吞吐率：1.15req/s] [内存消耗：1,655.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a11f19aa-e1d2-42f4-a2a4-a84d534b488d',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '5',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:23]
+
+---------------------------------------------------------------
+[ 2017-09-04T23:32:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=5
+[ log ] tp5.com/api/v1/product/recent?count=5 [运行时间：0.877000s][吞吐率：1.14req/s] [内存消耗：1,655.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fadca6cb-2353-414f-8510-29f8a6004f1d',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '5',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:23]
+
+---------------------------------------------------------------
+[ 2017-09-04T23:34:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=5
+[ log ] tp5.com/api/v1/product/recent?count=5 [运行时间：0.458000s][吞吐率：2.18req/s] [内存消耗：1,575.34kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '18262722-8647-47b6-ae59-8ad45a934663',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '5',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-04T23:36:32+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=1
+[ log ] tp5.com/api/v1/product/recent?count=1 [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,575.34kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4180fdbb-2954-4cf9-9c36-ebc2c5fa883c',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-04T23:36:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=0
+[ log ] tp5.com/api/v1/product/recent?count=0 [运行时间：0.841000s][吞吐率：1.19req/s] [内存消耗：1,655.10kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f8fa41fc-9e4f-4aa4-9dc0-d4e66edc0aec',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '0',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:23]
+
+---------------------------------------------------------------
+[ 2017-09-04T23:36:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] tp5.com/api/v1/product/recent [运行时间：0.435000s][吞吐率：2.30req/s] [内存消耗：1,575.16kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ab3f3ba-7e4f-43b1-bdc8-ac291b3819d4',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

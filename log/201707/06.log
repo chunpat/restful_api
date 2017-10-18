@@ -1,0 +1,519 @@
+[ 2017-07-06T00:01:04+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] tp5.com/banner/1 [运行时间：0.471000s][吞吐率：2.12req/s] [内存消耗：2,878.34kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=test;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `img` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `img` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-06T00:01:23+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] tp5.com/banner/1 [运行时间：0.503000s][吞吐率：1.99req/s] [内存消耗：2,878.30kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=test;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `img` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `img` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-06T20:54:58+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] tp5.com/banner/1 [运行时间：0.718000s][吞吐率：1.39req/s] [内存消耗：2,986.09kb] [文件加载：63]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=test;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.047000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.045000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `img` [ RunTime:0.055000s ]
+[ sql ] [ SQL ] SELECT * FROM `img` WHERE  `id` IN (1) [ RunTime:0.002000s ]
+[ error ] [1]Call to undefined function app\api\model\prefixImgUrl()[D:\phpstudy2\WWW\tp5\app\api\model\Img.php:19]
+
+---------------------------------------------------------------
+[ 2017-07-06T20:55:52+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] tp5.com/banner/1 [运行时间：0.478000s][吞吐率：2.09req/s] [内存消耗：2,904.41kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=test;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `img` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `img` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-06T20:57:19+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] tp5.com/banner/1 [运行时间：0.480000s][吞吐率：2.08req/s] [内存消耗：2,904.47kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=test;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `img` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `img` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-06T21:13:48+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] tp5.com/banner/1 [运行时间：0.479000s][吞吐率：2.09req/s] [内存消耗：2,904.47kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=test;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `img` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `img` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-06T21:15:29+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] tp5.com/banner/1 [运行时间：0.492000s][吞吐率：2.03req/s] [内存消耗：2,904.47kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=test;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `img` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `img` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-06T21:22:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：0.866000s][吞吐率：1.15req/s] [内存消耗：1,588.62kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'banner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-06T21:22:21+08:00 ] 127.0.0.1 127.0.0.1 GET /v1/banner/1
+[ log ] tp5.com/v1/banner/1 [运行时间：0.872000s][吞吐率：1.15req/s] [内存消耗：1,588.21kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'banner',
+    2 => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-06T21:22:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：0.863000s][吞吐率：1.16req/s] [内存消耗：1,588.62kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'banner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-06T21:23:00+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] tp5.com/banner/1 [运行时间：0.490000s][吞吐率：2.04req/s] [内存消耗：2,904.47kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=test;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `img` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `img` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-06T21:24:23+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] tp5.com/banner/1 [运行时间：0.867000s][吞吐率：1.15req/s] [内存消耗：1,588.09kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => '1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-06T21:24:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：0.507000s][吞吐率：1.97req/s] [内存消耗：2,904.74kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=test;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `img` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `img` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-07-06T21:24:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v2/banner/1
+[ log ] tp5.com/api/v2/banner/1 [运行时间：0.447000s][吞吐率：2.24req/s] [内存消耗：1,544.91kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v2.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v2\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v2\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-06T21:25:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v2/banner/1
+[ log ] tp5.com/api/v2/banner/1 [运行时间：0.868000s][吞吐率：1.15req/s] [内存消耗：1,590.63kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'version.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v2',
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-06T21:25:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v2/banner/1
+[ log ] tp5.com/api/v2/banner/1 [运行时间：0.447000s][吞吐率：2.24req/s] [内存消耗：1,545.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v2.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v2',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v2\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v2\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

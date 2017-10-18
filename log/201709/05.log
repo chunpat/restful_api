@@ -1,0 +1,173 @@
+[ 2017-09-05T00:02:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] tp5.com/api/v1/product/recent [运行时间：0.901000s][吞吐率：1.11req/s] [内存消耗：1,975.02kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '12fa4513-eeb2-4a10-94b6-1997e851ebd7',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2048]Non-static method app\api\model\Product::getRencentByCount() should not be called statically, assuming $this from incompatible context[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php:18]
+
+---------------------------------------------------------------
+[ 2017-09-05T00:02:42+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent=1
+[ log ] tp5.com/api/v1/product/recent=1 [运行时间：0.880000s][吞吐率：1.14req/s] [内存消耗：1,593.95kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'product',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c91c82d7-a4d4-41d4-a479-33158a14192b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-05T00:02:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent=1
+[ log ] tp5.com/api/v1/product/recent=1 [运行时间：0.873000s][吞吐率：1.15req/s] [内存消耗：1,593.95kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'product',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0f0be14d-bab5-4a8f-8fb0-ae551e4aacc9',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-05T00:02:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent=2
+[ log ] tp5.com/api/v1/product/recent=2 [运行时间：0.865000s][吞吐率：1.16req/s] [内存消耗：1,593.95kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'product',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2071e736-f6c4-4df4-ac57-6589971f8689',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-05T00:03:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=12
+[ log ] tp5.com/api/v1/product/recent?count=12 [运行时间：0.879000s][吞吐率：1.14req/s] [内存消耗：1,975.24kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5681640b-1f39-4951-9c9c-cd19efe94a2b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '12',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2048]Non-static method app\api\model\Product::getRencentByCount() should not be called statically, assuming $this from incompatible context[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php:18]
+
+---------------------------------------------------------------
+[ 2017-09-05T00:04:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=12
+[ log ] tp5.com/api/v1/product/recent?count=12 [运行时间：0.501000s][吞吐率：2.00req/s] [内存消耗：2,803.05kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8fab234d-7f2a-4935-a25b-39a3fcc0f3a4',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '12',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 12 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------

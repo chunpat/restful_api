@@ -1,0 +1,1787 @@
+[ 2017-10-11T20:56:46+08:00 ] 127.0.0.1 127.0.0.1 GET /v1/api/theme?ids=1,2,3
+[ log ] tp5.com/v1/api/theme?ids=1,2,3 [运行时间：1.095000s][吞吐率：0.91req/s] [内存消耗：1,611.78kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'api',
+    2 => 'theme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T20:57:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/2
+[ log ] tp5.com/api/v1/banner/2 [运行时间：0.998000s][吞吐率：1.00req/s] [内存消耗：2,903.04kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b8768fd1-72ef-47c7-8311-cee48d413a45',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.038000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php:15]
+
+---------------------------------------------------------------
+[ 2017-10-11T20:57:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=4
+[ log ] tp5.com/api/v1/theme?ids=4 [运行时间：0.956000s][吞吐率：1.05req/s] [内存消耗：2,994.47kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'abdb8837-d147-49af-b0af-38021fa54274',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '4',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (4) [ RunTime:0.001000s ]
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php:19]
+
+---------------------------------------------------------------
+[ 2017-10-11T20:57:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] tp5.com/api/v1/theme/3 [运行时间：0.906000s][吞吐率：1.10req/s] [内存消耗：3,091.67kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplexThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4d99fd99-8bc8-4eea-b102-24b6f4de7b97',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplexThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000000s ]
+[ error ] [0]method not exist:think\db\Query->isEmpty[D:\phpstudy2\WWW\tp5\thinkphp\library\think\db\Query.php:93]
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:09+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] tp5.com/api/v1/theme/3 [运行时间：0.876000s][吞吐率：1.14req/s] [内存消耗：3,091.66kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplexThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3cd292a1-bb39-4928-9efc-1330ed9487e4',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplexThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000000s ]
+[ error ] [0]method not exist:think\db\Query->isEmpty[D:\phpstudy2\WWW\tp5\thinkphp\library\think\db\Query.php:93]
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/2
+[ log ] tp5.com/api/v1/banner/2 [运行时间：0.850000s][吞吐率：1.18req/s] [内存消耗：2,903.04kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '17e4e865-8f9b-4e5c-890a-382f4e50a757',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php:15]
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=4
+[ log ] tp5.com/api/v1/theme?ids=4 [运行时间：0.841000s][吞吐率：1.19req/s] [内存消耗：2,994.47kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '28ac8bf7-860b-46c9-99cd-2ea65cbe849b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '4',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (4) [ RunTime:0.000000s ]
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php:19]
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] tp5.com/api/v1/theme/3 [运行时间：0.870000s][吞吐率：1.15req/s] [内存消耗：3,091.67kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplexThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '753fdc84-85db-4116-8396-d7c32d3b473e',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplexThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000000s ]
+[ error ] [0]method not exist:think\db\Query->isEmpty[D:\phpstudy2\WWW\tp5\thinkphp\library\think\db\Query.php:93]
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] tp5.com/api/v1/category/all [运行时间：0.465000s][吞吐率：2.15req/s] [内存消耗：2,886.00kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Category',
+    2 => 'getAllCategories',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5c8a46ea-07d4-461c-a3c4-4bf9d76bbd0a',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Category->getAllCategories[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/2
+[ log ] tp5.com/api/v1/banner/2 [运行时间：0.842000s][吞吐率：1.19req/s] [内存消耗：2,903.04kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '08cf3723-3296-4bfa-be3c-b8855192d114',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php:15]
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:43+08:00 ] 127.0.0.1 127.0.0.1 GET /v1/api/banner/1
+[ log ] tp5.com/v1/api/banner/1 [运行时间：0.828000s][吞吐率：1.21req/s] [内存消耗：1,611.59kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'api',
+    2 => 'banner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:43+08:00 ] 127.0.0.1 127.0.0.1 GET /v1/api/theme?ids=1,2,3
+[ log ] tp5.com/v1/api/theme?ids=1,2,3 [运行时间：0.831000s][吞吐率：1.20req/s] [内存消耗：1,611.77kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'api',
+    2 => 'theme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:43+08:00 ] 127.0.0.1 127.0.0.1 GET /v1/api/product/recent
+[ log ] tp5.com/v1/api/product/recent [运行时间：0.827000s][吞吐率：1.21req/s] [内存消耗：1,611.74kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'api',
+    2 => 'product',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T20:58:43+08:00 ] 127.0.0.1 127.0.0.1 POST /v1/api/token/user
+[ log ] tp5.com/v1/api/token/user [运行时间：0.825000s][吞吐率：1.21req/s] [内存消耗：1,612.02kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'api',
+    2 => 'token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1070219678.appservice.open.weixin.qq.com',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003j2lTW1BufEW00CzSW12FqTW1j2lTf',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T21:00:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/category?id=2
+[ log ] tp5.com/api/v1/product/category?id=2 [运行时间：0.457000s][吞吐率：2.19req/s] [内存消耗：2,827.44kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getAllInCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '424cb5a4-461f-4bdf-9a12-d2d41b525f4d',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getAllInCategory[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 ORDER BY create_time desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:00:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.118000s][吞吐率：0.89req/s] [内存消耗：1,694.36kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3f36a1c7-6577-455d-a4cb-2ffe47394638',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:106]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:00:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] tp5.com/api/v1/category/all [运行时间：0.448000s][吞吐率：2.23req/s] [内存消耗：2,886.00kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Category',
+    2 => 'getAllCategories',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '67617001-7c90-48e8-99ca-043140ae9ed6',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Category->getAllCategories[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:00:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] tp5.com/api/v1/theme?ids=1,2,3 [运行时间：0.470000s][吞吐率：2.13req/s] [内存消耗：2,928.97kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:00:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：0.493000s][吞吐率：2.03req/s] [内存消耗：2,995.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (1,3,2,65) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:00:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] tp5.com/api/v1/product/recent [运行时间：0.470000s][吞吐率：2.13req/s] [内存消耗：2,828.99kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:00:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.996000s][吞吐率：0.50req/s] [内存消耗：1,694.73kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1070219678.appservice.open.weixin.qq.com',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003LQS3t0YcKYa1BLh5t0RwV3t0LQS3Y',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:106]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:01:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：0.467000s][吞吐率：2.14req/s] [内存消耗：2,995.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (1,3,2,65) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:01:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] tp5.com/api/v1/theme?ids=1,2,3 [运行时间：0.462000s][吞吐率：2.16req/s] [内存消耗：2,928.97kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:01:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] tp5.com/api/v1/product/recent [运行时间：0.457000s][吞吐率：2.19req/s] [内存消耗：2,828.99kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:01:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.966000s][吞吐率：1.04req/s] [内存消耗：1,694.76kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1070219678.appservice.open.weixin.qq.com',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003Q8IQv1wrT0d0pYDQv1XYSQv1Q8IQC',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:106]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：0.493000s][吞吐率：2.03req/s] [内存消耗：2,995.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (1,3,2,65) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] tp5.com/api/v1/theme?ids=1,2,3 [运行时间：0.470000s][吞吐率：2.13req/s] [内存消耗：2,928.97kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] tp5.com/api/v1/product/recent [运行时间：0.459000s][吞吐率：2.18req/s] [内存消耗：2,828.99kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：0.478000s][吞吐率：2.09req/s] [内存消耗：2,995.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (1,3,2,65) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] tp5.com/api/v1/theme?ids=1,2,3 [运行时间：0.465000s][吞吐率：2.15req/s] [内存消耗：2,928.97kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] tp5.com/api/v1/product/recent [运行时间：0.459000s][吞吐率：2.18req/s] [内存消耗：2,828.99kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.159000s][吞吐率：0.86req/s] [内存消耗：1,694.76kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1070219678.appservice.open.weixin.qq.com',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013vcD880WfBOJ1DnZ580pvD880vcD86',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:106]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.973000s][吞吐率：1.03req/s] [内存消耗：1,694.71kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1070219678.appservice.open.weixin.qq.com',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003P2zWC0FH1jg281wTC0L9SWC0P2zWP',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:106]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：0.473000s][吞吐率：2.11req/s] [内存消耗：2,995.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (1,3,2,65) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] tp5.com/api/v1/theme?ids=1,2,3 [运行时间：0.466000s][吞吐率：2.15req/s] [内存消耗：2,928.97kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] tp5.com/api/v1/product/recent [运行时间：0.458000s][吞吐率：2.18req/s] [内存消耗：2,828.99kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:02:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.042000s][吞吐率：0.96req/s] [内存消耗：1,694.76kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1070219678.appservice.open.weixin.qq.com',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013HXYCs1e753p0DJ1Es1lPVCs1HXYCV',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:106]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:03:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] tp5.com/api/v1/banner/1 [运行时间：0.480000s][吞吐率：2.08req/s] [内存消耗：2,995.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (1,3,2,65) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:03:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] tp5.com/api/v1/theme?ids=1,2,3 [运行时间：0.472000s][吞吐率：2.12req/s] [内存消耗：2,928.97kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:03:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent
+[ log ] tp5.com/api/v1/product/recent [运行时间：0.456000s][吞吐率：2.19req/s] [内存消耗：2,828.99kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:03:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.977000s][吞吐率：1.02req/s] [内存消耗：1,694.76kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1070219678.appservice.open.weixin.qq.com',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003wYVjQ0H6S0c2D64kQ02kHjQ0wYVj0',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:106]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:03:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] tp5.com/api/v1/category/all [运行时间：0.450000s][吞吐率：2.22req/s] [内存消耗：2,886.00kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Category',
+    2 => 'getAllCategories',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dd7d3064-1127-45ad-8b3c-46786223eb80',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Category->getAllCategories[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:05:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] tp5.com/api/v1/category/all [运行时间：0.455000s][吞吐率：2.20req/s] [内存消耗：2,886.00kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Category',
+    2 => 'getAllCategories',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '63aeb643-8a1b-45e1-8343-1f67ab6875de',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Category->getAllCategories[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:05:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] tp5.com/api/v1/category/all [运行时间：0.449000s][吞吐率：2.23req/s] [内存消耗：2,886.00kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Category',
+    2 => 'getAllCategories',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9c434249-f1f0-4ab9-b5ff-bcbb4b344e7d',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Category->getAllCategories[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:06:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] tp5.com/api/v1/category/all [运行时间：0.449000s][吞吐率：2.23req/s] [内存消耗：2,886.00kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Category',
+    2 => 'getAllCategories',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f1f628c6-8876-451c-bd3f-7dcdef681b73',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Category->getAllCategories[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:07:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] tp5.com/api/v1/category/all [运行时间：0.467000s][吞吐率：2.14req/s] [内存消耗：2,886.09kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Category',
+    2 => 'getAllCategories',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2da8d085-f5ef-4e53-95b4-c465fa3c06cf',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Category->getAllCategories[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:07:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] tp5.com/api/v1/theme/3 [运行时间：0.883000s][吞吐率：1.13req/s] [内存消耗：3,091.67kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getComplexThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '80d3463e-9bfd-4846-9cfa-e8969b1c5855',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->getComplexThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ error ] [0]method not exist:think\db\Query->isEmpty[D:\phpstudy2\WWW\tp5\thinkphp\library\think\db\Query.php:93]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:07:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=2
+[ log ] tp5.com/api/v1/product/recent?count=2 [运行时间：0.441000s][吞吐率：2.27req/s] [内存消耗：2,822.01kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getRencent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c54e5d24-d665-43e2-aeef-af225dcb6fd3',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getRencent[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-11T21:07:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] tp5.com/api/v1/category/all [运行时间：0.450000s][吞吐率：2.22req/s] [内存消耗：2,886.00kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Category',
+    2 => 'getAllCategories',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c90198c3-b610-44b3-8173-15d549c30cb3',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Category->getAllCategories[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------

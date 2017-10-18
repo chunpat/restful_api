@@ -1,0 +1,1654 @@
+[ 2017-09-12T22:09:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.052000s][吞吐率：0.95req/s] [内存消耗：1,697.80kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5c1c4511-3cbe-40f6-a05d-c7d53803f0b1',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:58]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:15:55+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.224000s][吞吐率：4.46req/s] [内存消耗：1,697.92kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bcbe2cf7-a8de-492a-bfea-0c6854550a5f',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:59]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:16:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.223000s][吞吐率：4.48req/s] [内存消耗：1,697.42kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'abab527d-19cb-4938-ad5a-f9566feb91ad',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:57]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:16:14+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.016000s][吞吐率：0.98req/s] [内存消耗：1,680.82kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'feb8172c-c4a2-44c1-90f6-e43b72931449',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\service\UserToken.php:53]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:16:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.143000s][吞吐率：0.87req/s] [内存消耗：1,697.92kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'aa95d78b-7164-4edf-9986-e2faa3ecc978',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:59]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:19:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.270000s][吞吐率：3.70req/s] [内存消耗：1,697.92kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3bbac06f-de7f-4228-93a2-64ba2b559b09',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:59]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:19:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.218000s][吞吐率：4.59req/s] [内存消耗：1,697.91kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '98e2d832-95d6-498c-8c5a-fdf04fa39c6d',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:59]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:19:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.224000s][吞吐率：4.46req/s] [内存消耗：1,697.92kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '39296b7a-4e59-47e3-be60-35c8befdcbb7',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:59]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:20:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：3.218000s][吞吐率：0.31req/s] [内存消耗：1,674.38kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f02e8019-ddea-4633-9940-3344b4bfb845',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\service\WeChatException' not found[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:54]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:20:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.192000s][吞吐率：5.21req/s] [内存消耗：1,697.42kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2017d8c2-4dc2-4b14-8383-0368bbcfec1b',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:57]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:20:56+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.006000s][吞吐率：0.99req/s] [内存消耗：1,680.83kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '639495b2-036c-4f4f-a37d-0bbc15f1c425',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\service\UserToken.php:54]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:20:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.975000s][吞吐率：1.03req/s] [内存消耗：1,680.83kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '401211dd-961b-4c8c-91da-8467197373c1',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\service\UserToken.php:54]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:22:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.013000s][吞吐率：0.99req/s] [内存消耗：1,680.89kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '93d073c7-0abb-4f90-a542-faeb246fe609',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404]sss[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:54]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:22:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.022000s][吞吐率：0.98req/s] [内存消耗：1,680.88kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b7e7a717-c266-41d5-87e5-ab11b1719808',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404]sss[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:54]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:22:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.996000s][吞吐率：1.00req/s] [内存消耗：1,680.89kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '85e0ef08-e1eb-4103-86c2-ee213f399d58',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404]sss[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:54]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:22:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.200000s][吞吐率：5.00req/s] [内存消耗：1,697.51kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c6ef41c8-adb1-4dbd-9fd2-434d18ba298c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:54]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:22:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.990000s][吞吐率：1.01req/s] [内存消耗：1,680.89kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '43a4dc21-a09c-4f65-9f0f-ed3de6963575',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404]sss[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:54]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:27:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.283000s][吞吐率：3.53req/s] [内存消耗：1,697.74kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c08b9051-f085-4b95-a238-4b809871722b',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:58]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:31:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.287000s][吞吐率：3.48req/s] [内存消耗：1,697.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f41db435-59f8-47df-a4a2-4f748af8dd82',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:61]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:31:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.211000s][吞吐率：4.74req/s] [内存消耗：1,697.05kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5d27992b-4273-4fb6-a41a-4c42e906a087',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:60]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:31:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.221000s][吞吐率：4.52req/s] [内存消耗：1,674.09kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f5d24e53-5f4c-4516-9fc3-b48a707ce16e',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\service\WeChatException' not found[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:59]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:31:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.020000s][吞吐率：0.98req/s] [内存消耗：1,677.89kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3300ba43-1570-48e2-947c-d9a1b5b6ca9c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant 参数错误 - assumed '参数错误'[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:59]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:31:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.209000s][吞吐率：4.78req/s] [内存消耗：1,697.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '57d575c5-6e47-4871-a304-7cd988db3ecc',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:61]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:33:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.204000s][吞吐率：4.90req/s] [内存消耗：1,697.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a658e700-1c87-4d79-ab07-5fba9dd9917b',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:61]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:33:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.202000s][吞吐率：4.95req/s] [内存消耗：1,697.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cbbf5cbf-1153-4abd-adc2-083873b4ae39',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:61]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:35:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.200000s][吞吐率：5.00req/s] [内存消耗：1,697.55kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '61b4460d-9ebd-4655-a6f5-754ff945e19e',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:60]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:35:23+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.224000s][吞吐率：4.46req/s] [内存消耗：1,697.71kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f1460cf-2eac-4d1b-891f-a6c5f24699d8',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:62]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:37:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.196000s][吞吐率：5.10req/s] [内存消耗：1,697.50kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f27a1fd-ee1e-4363-b5c8-6091a4377a7d',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:60]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:37:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：1,681.46kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6b8b2ba1-f0a3-47d6-b4ed-5aa0917699db',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\service\Token' not found[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:19]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:38:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：1,681.46kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fe982427-ea04-41d0-8132-fbf85d7ed61d',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\service\Token' not found[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:19]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:38:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,681.46kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5857147f-0e41-4d7a-9db1-8ff5727e2a91',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\service\Token' not found[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:19]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:38:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,681.46kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1f045f28-56bb-4d3f-8719-fad80c1d62cb',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\service\Token' not found[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:19]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:38:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：1,681.46kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b31d5de2-1f27-4c62-951e-4afc924df1fd',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\service\Token' not found[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:19]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:39:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,673.98kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd60f30a7-bf09-4a07-af5d-fc224d7ce9b3',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\service\UserToken' not found[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php:20]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:39:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：1,674.07kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '601d53db-0dbf-46e0-a689-8fd39450c783',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\service\UserToken' not found[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php:20]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:40:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：1,674.07kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c5b3da4c-b717-48aa-bf91-c6a2e221a7a6',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\service\UserToken' not found[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php:20]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:41:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.251000s][吞吐率：3.98req/s] [内存消耗：1,675.06kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c57f9681-3947-4cdf-a0db-781e4382728b',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\service\UserToken::processLoginError()[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:44]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:41:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.223000s][吞吐率：4.48req/s] [内存消耗：1,699.70kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a73f012f-1e41-4d29-a12a-457c608a7eb8',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:77]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:41:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.162000s][吞吐率：6.17req/s] [内存消耗：1,697.77kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c75f8ab4-9da4-4a61-b436-ec19e1473b02',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\service\UserToken.php:58]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:43:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,664.58kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cc466aad-33e4-4b47-91db-7c5a7151a794',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\service\UserToken' not found[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php:20]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:44:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：1,664.58kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4f1592bf-e089-4ce9-bb34-6b828176f2bb',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\service\UserToken' not found[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php:20]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:46:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：1,664.58kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '79879641-ae14-439b-881d-80518c707e1f',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\service\UserToken' not found[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php:20]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:46:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：1,664.58kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e04c0eb2-ffb4-4bb0-8a4d-884811052ab1',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\service\UserToken' not found[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php:20]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:47:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.190000s][吞吐率：5.26req/s] [内存消耗：1,697.81kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b02de530-84a5-4169-a35f-edd472d848b5',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:58]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:48:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：3.987000s][吞吐率：0.25req/s] [内存消耗：1,680.88kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1432e716-6265-41ae-bdeb-05fe114b1203',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:53]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:48:58+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.513000s][吞吐率：1.95req/s] [内存消耗：1,697.84kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '63ea4b3a-993a-4195-be29-7fd806bcc9d0',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:58]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:49:31+08:00 ] [ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])
+[ error ] Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])
+
+---------------------------------------------------------------
+[ 2017-09-12T22:49:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.291000s][吞吐率：3.44req/s] [内存消耗：1,697.81kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1a4edcaa-fa87-4db7-a0e1-acc04e6407cb',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:58]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:50:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.229000s][吞吐率：4.37req/s] [内存消耗：1,697.89kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0ee4c489-13ed-4070-b68e-f2163427a218',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]])[D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:59]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:52:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：0.980000s][吞吐率：1.02req/s] [内存消耗：1,684.08kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2166885c-0257-48c7-bd39-853c225ccd76',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:54]
+
+---------------------------------------------------------------
+[ 2017-09-12T22:52:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] tp5.com/api/v1/token/user [运行时间：1.034000s][吞吐率：0.97req/s] [内存消耗：1,684.08kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8c498aac-cad4-42da-bf88-c1da7a9eb4e4',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'tp5.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003dM9EO13gcq41dY3EO1bibEO1dM9E1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:54]
+
+---------------------------------------------------------------
