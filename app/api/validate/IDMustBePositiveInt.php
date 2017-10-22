@@ -10,7 +10,7 @@ class IDMustBePositiveInt extends BaseValidate
 {	
 	
 	protected $rule = [
-			'id'=>'require',
+			'id'=>'require|isPositiveInteger',
 
 		];
 	protected $message = [

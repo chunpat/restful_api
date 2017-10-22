@@ -7,8 +7,6 @@
  */
 
 namespace app\api\model;
-use think\Db;
-use think\Exception;
 use think\Model;
 
 class BaseModel extends Model

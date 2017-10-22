@@ -1,28 +1,26 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2017/5/30
- * Time: 12:59
- */
 
 namespace app\api\model;
 
 class Banner extends BaseModel
 {
-    protected $hidden=[
-
-    ];
-
-
-    public function items(){
-        return $this->hasMany('banner_item','banner_id','id')->order('id', 'desc');
+    public function items()
+    {
+        return $this->hasMany('BannerItem', 'banner_id', 'id');
     }
-    public static function getBannerByID($id)
-        {
-            $result = $banner = self::with(['items','items.img'])->find($id);
-            return $result;
-        }
+    //
 
+    /**
+     * @param $id int banner所在位置
+     * @return Banner
+     */
+    public static function getBannerById($id)
+    {
+        $banner = self::with(['items','items.img'])
+            ->find($id);
+
+//         $banner = BannerModel::relation('items,items.img')
+//             ->find($id);
+        return $banner;
+    }
 }
-

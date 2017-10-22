@@ -17,9 +17,9 @@ define('LOG_PATH',__DIR__ . '/../log/');
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';
 
-// \think\Log::init([
-//    'type'=>'file',
-//     'path'=>LOG_PATH,
-//     'level'=>['sql']
-// ]);
+ \think\Log::init([
+    'type'=>'file',
+     'path'=>LOG_PATH,
+     'level'=>['error']
+ ]);
 
