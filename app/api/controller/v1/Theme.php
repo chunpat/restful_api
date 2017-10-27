@@ -29,7 +29,7 @@ class Theme{
 
         (new IDMustBePositiveInt())->goCheck();
         $result = ThemesModel::getThemeWithProducts($id);
-        if($result->isEmpty()){
+        if(!$result){
             throw new ThemesMissException();
         }
         return json($result);

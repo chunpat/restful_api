@@ -11,8 +11,8 @@ namespace app\api\model;
 class Theme extends BaseModel
 {
 
-    protected $hidden=[
-
+    protected $hidden = [
+        'delete_time','update_time'
     ];
 
     /**

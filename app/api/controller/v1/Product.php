@@ -14,6 +14,8 @@ use app\lib\exception\ProductException;
 
 class Product
 {
+
+
     public function getRencent($count = 15){
         (new Count())->goCheck();
         $result = ProductModel::getRencentByCount($count);
@@ -25,6 +27,7 @@ class Product
     }
 
     public function getAllInCategory($id){
+
         (new IDMustBePositiveInt())->goCheck();
         $result = ProductModel::getByCategory($id);
         if($result->isEmpty()){

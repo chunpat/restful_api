@@ -7,15 +7,13 @@
  */
 
 namespace app\api\model;
-use think\Db;
-use think\Exception;
-use think\Model;
 
 class Product extends BaseModel
 {
-    protected $hidden=[
-
+    protected $hidden = [
+        'delete_time','update_time','create_time','from','pivot'
     ];
+
     public function getMainImgUrlAttr($value, $data){
 //        return 'success';
         return $this->prefixImgUrl($value, $data);

@@ -5,6 +5,7 @@ use think\Request;
 use think\Validate;
 
 class BaseValidate extends Validate{
+
     public function goCheck()
     {
         // 获取http传入的参数

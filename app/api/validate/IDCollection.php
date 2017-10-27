@@ -1,11 +1,7 @@
 <?php 
 namespace app\api\validate;
-// use think\Validate;
 
 
-/**
-* 
-*/
 class IDCollection extends BaseValidate
 {
     protected $rule=[
@@ -22,11 +18,11 @@ class IDCollection extends BaseValidate
         if(empty($values)){
             return false;
         }
-//        foreach ($values as $id){
-//            if(!$this->isPositiveInteger($id)){
-//                return false;
-//            }
-//        }
+        foreach ($values as $id){
+            if(!$this->isPositiveInteger($id)){
+                return false;
+            }
+        }
         return true;
     }
 		
