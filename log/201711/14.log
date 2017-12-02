@@ -1,0 +1,846 @@
+[ 2017-11-14T23:17:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：1.403000s][吞吐率：0.71req/s] [内存消耗：3,328.58kb] [文件加载：66]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:17:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] restful_api.com/api/v1/theme/1 [运行时间：0.732000s][吞吐率：1.37req/s] [内存消耗：3,208.06kb] [文件加载：66]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:18:01+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.123000s][吞吐率：8.13req/s] [内存消耗：3,014.31kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5ef35f79-d61f-41e1-a63a-5a4d5ac835e9',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:18:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.167000s][吞吐率：5.99req/s] [内存消耗：3,148.78kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '24ec0eb0-c421-4f25-ae4a-30ad7f62f36f',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+[ error ] [1]Call to a member function isEmpty() on a non-object[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php:18]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:19:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：3,009.13kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3c3a2b25-95b3-4057-a8a8-fcb9d4c9c99b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:19:42+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.090000s][吞吐率：11.11req/s] [内存消耗：3,148.78kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0760e3f5-a24d-4906-af63-a814971b631d',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+[ error ] [1]Call to a member function isEmpty() on a non-object[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php:18]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:20:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.106000s][吞吐率：9.43req/s] [内存消耗：3,014.31kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5d10b93e-14b3-4a38-85dd-b7d48e53284f',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:20:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.113000s][吞吐率：8.85req/s] [内存消耗：3,014.31kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2bb198bf-042b-4792-9a95-b4be90989f33',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:20:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.094000s][吞吐率：10.64req/s] [内存消耗：3,009.13kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f8ff9203-1b98-47ab-807b-41c8e6164125',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:20:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.100000s][吞吐率：10.00req/s] [内存消耗：3,009.13kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd41215d7-3002-42ab-8dc4-ce7b1b76406e',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:20:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,744.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1cda6ca1-0f73-4d1e-8895-807029ecf431',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'var_dump' (T_STRING)[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php:22]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:20:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.930000s][吞吐率：1.08req/s] [内存消耗：3,139.38kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f1620475-50e6-4eab-939e-d4e217b1a6dd',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+[ error ] [2]Wrong parameter count for var_dump()[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php:22]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:21:01+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.100000s][吞吐率：10.00req/s] [内存消耗：3,008.83kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8a8b4759-6a07-4ce6-acfa-92f2965bf733',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:21:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.126000s][吞吐率：7.94req/s] [内存消耗：3,008.83kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c73ea78-577e-4c51-b105-340f60ef0c88',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:21:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.109000s][吞吐率：9.17req/s] [内存消耗：3,009.13kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '75a4f449-bf51-4236-a2e2-6f0568fca357',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:21:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.504000s][吞吐率：1.98req/s] [内存消耗：3,084.16kb] [文件加载：63]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:21:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.479000s][吞吐率：2.09req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:22:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.463000s][吞吐率：2.16req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:22:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.447000s][吞吐率：2.24req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:22:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.453000s][吞吐率：2.21req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:22:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.451000s][吞吐率：2.22req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:23:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.464000s][吞吐率：2.16req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:23:06+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.455000s][吞吐率：2.20req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:23:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.455000s][吞吐率：2.20req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:23:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.450000s][吞吐率：2.22req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:23:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.437000s][吞吐率：2.29req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:23:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.458000s][吞吐率：2.18req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:24:06+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.454000s][吞吐率：2.20req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:24:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.451000s][吞吐率：2.22req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:24:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.464000s][吞吐率：2.16req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:24:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.449000s][吞吐率：2.23req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:24:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.441000s][吞吐率：2.27req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:25:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.458000s][吞吐率：2.18req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:25:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.458000s][吞吐率：2.18req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:26:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.464000s][吞吐率：2.16req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:26:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.449000s][吞吐率：2.23req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:26:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.454000s][吞吐率：2.20req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:26:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.446000s][吞吐率：2.24req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:26:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.457000s][吞吐率：2.19req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:26:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.452000s][吞吐率：2.21req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:26:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.449000s][吞吐率：2.23req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:27:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.462000s][吞吐率：2.16req/s] [内存消耗：1,670.59kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:27:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.455000s][吞吐率：2.20req/s] [内存消耗：1,670.59kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:27:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.588000s][吞吐率：1.70req/s] [内存消耗：3,328.46kb] [文件加载：66]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:27:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.448000s][吞吐率：2.23req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:28:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.884000s][吞吐率：1.13req/s] [内存消耗：1,727.72kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fb5e90f2-fc52-4d31-83db-109d09f76e73',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-14T23:28:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.127000s][吞吐率：7.87req/s] [内存消耗：3,009.09kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd93223a7-ed6c-4416-be44-bf629e079264',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:28:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.090000s][吞吐率：11.11req/s] [内存消耗：3,009.09kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ed00ec67-bb04-4c5f-9194-a2beead64469',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:29:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.108000s][吞吐率：9.26req/s] [内存消耗：3,009.20kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '070f48ec-040e-475b-97d7-cede8106a61b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:29:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.102000s][吞吐率：9.80req/s] [内存消耗：3,009.20kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '58357370-e2cd-4e15-9528-2dcf05905ee8',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:29:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.096000s][吞吐率：10.42req/s] [内存消耗：3,008.33kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'getSimpleThemes',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '196d125d-b33c-435f-956a-bea11a912ebf',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,3',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Theme->getSimpleThemes[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:29:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.501000s][吞吐率：2.00req/s] [内存消耗：3,084.16kb] [文件加载：63]
+
+---------------------------------------------------------------
+[ 2017-11-14T23:29:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.453000s][吞吐率：2.21req/s] [内存消耗：1,670.47kb] [文件加载：44]
+
+---------------------------------------------------------------

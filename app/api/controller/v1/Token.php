@@ -16,12 +16,12 @@ class Token
 {
     public function getToken($code = ''){
         (new TokenGet())->goCheck();
-
         $tk = new UserToken($code);
-        $token = $tk ->get();
-        return [
+        $token =$tk->get();
+//        $token =UserToken::get();
+        return json([
            'token' => $token,
-        ];
+        ]);
 
     }
 }

@@ -9,6 +9,8 @@
         <option value="think\Error::appShutdown" />
         <option value="think\db\Connection-&gt;__destruct" />
         <option value="app\api\controller\v1\Product-&gt;getRencent" />
+        <option value="app\api\controller\v1\Pay-&gt;pre_order" />
+        <option value="app\api\service\Pay-&gt;goPay" />
       </list>
     </option>
   </component>

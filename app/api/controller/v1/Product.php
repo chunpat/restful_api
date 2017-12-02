@@ -37,4 +37,16 @@ class Product
 
         return json($result);
     }
+
+    /**
+     * @param $id  产品id
+     */
+    public function getOne($id){
+        (new IDMustBePositiveInt())->goCheck();
+        $result = ProductModel::getProduct($id);
+        if(!$result){
+            throw new ProductException();
+        }
+        return json($result);
+    }
 }

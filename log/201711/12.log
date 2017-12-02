@@ -1,0 +1,1275 @@
+[ 2017-11-12T20:30:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：1.494000s][吞吐率：0.67req/s] [内存消耗：2,136.50kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f3441f1-e11a-406c-8de8-3db546b59b73',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\service\Token.php:42]
+
+---------------------------------------------------------------
+[ 2017-11-12T20:34:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.653000s][吞吐率：1.53req/s] [内存消耗：3,215.80kb] [文件加载：63]
+
+---------------------------------------------------------------
+[ 2017-11-12T20:35:39+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：3,126.98kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8060b8e8-c082-4461-a524-e8d46497cebd',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T20:35:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.081000s][吞吐率：12.35req/s] [内存消耗：3,126.76kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ad044a14-eaa0-4011-ad23-4dfae3082a3b',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T20:36:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.084000s][吞吐率：11.90req/s] [内存消耗：3,126.84kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6851ffca-4d51-4d3b-8a93-4ea0c4c8cd3a',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T20:36:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.087000s][吞吐率：11.49req/s] [内存消耗：3,128.30kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd8969057-fa2c-41e3-ae6b-6859f97d9a71',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T20:37:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.079000s][吞吐率：12.66req/s] [内存消耗：3,128.30kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '42f6ffd2-1d49-4dd8-95b5-d13ceb2e0633',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T20:37:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.086000s][吞吐率：11.63req/s] [内存消耗：3,128.30kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '82c1e5d4-83c4-4506-a12b-c62dc587ec67',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T20:37:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.079000s][吞吐率：12.66req/s] [内存消耗：3,128.30kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '74ac20c4-4795-45b5-a2e5-6ec926215251',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T20:38:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.092000s][吞吐率：10.87req/s] [内存消耗：3,128.30kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'abe193e3-38f7-48cc-964a-56539f249e19',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T21:10:09+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.086000s][吞吐率：11.63req/s] [内存消耗：3,130.77kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '855ba137-ee80-47cf-8927-310eb658d3bb',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T21:10:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：3,130.77kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '03c2e491-a87a-403a-8754-288c6681ab26',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T21:42:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.098000s][吞吐率：10.20req/s] [内存消耗：3,134.95kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4b33d980-73a1-42ea-aa74-2331c6d4ff62',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T21:45:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.112000s][吞吐率：8.93req/s] [内存消耗：3,167.70kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'feef3032-cad1-4426-925b-0581fb3af616',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T21:45:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：3,167.90kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6c69320f-d63a-4a72-89ec-b0b07bbcc151',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T21:45:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.089000s][吞吐率：11.24req/s] [内存消耗：3,167.90kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e716a344-5c1f-411f-8a74-b585d3f3be21',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:19:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：3,173.71kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '35369ecf-6494-4d5b-bc57-32f56b40fabf',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:19:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：3,173.72kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9dbb7952-2483-4df8-9ac6-220038e1018e',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:20:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.110000s][吞吐率：9.09req/s] [内存消耗：3,173.72kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b165c9e1-b77b-420e-af3a-6ce4e5aa0989',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:31:40+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.086000s][吞吐率：11.63req/s] [内存消耗：3,173.59kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8d660aa2-2d59-4f8f-93e9-4ee2d302d313',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:44:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.922000s][吞吐率：1.08req/s] [内存消耗：3,354.48kb] [文件加载：69]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'abd305f9-3fba-499e-a47c-2768a52db29a',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+[ error ] [0]数据表字段不存在:[order_on][D:\phpstudy2\WWW\tp5\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:45:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.146000s][吞吐率：6.85req/s] [内存消耗：3,217.38kb] [文件加载：63]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'add8a033-c1c0-4f84-9a3b-a5aa4e4d4577',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`order_no` , `user_id` , `total_price` , `snap_img` , `snap_name` , `total_count` , `snap_items` , `snap_address`) VALUES ('AB12015214526522' , 1 , 0.05 , 'http://restful_api/images/product-vg@1.png' , '芹菜 半斤 等' , 5 , '[{\"id\":1,\"count\":\"2\",\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.02,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-vg@1.png\"},{\"id\":22,\"count\":\"3\",\"name\":\"\\u6885\\u5170\\u6e05\\u82b1\\u7cd5 1\\u4e2a\",\"totalPrice\":0.03,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-cake-a@3.png\"}]' , '{\"id\":2,\"name\":\"\\u5f20\\u5927a\",\"mobile\":\"13712341234\",\"province\":\"\\u5e7f\\u4e1c\\u7701\",\"city\":\"\\u73e0\\u6d77\\u5e02\",\"country\":\"\\u9999\\u6d321\",\"detail\":\"\\u91d1\\u9e21\\u5cad\",\"delete_time\":null,\"user_id\":1,\"update_time\":\"1970-01-01 08:00:00\"}') [ RunTime:0.033000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:45:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.137000s][吞吐率：7.30req/s] [内存消耗：3,216.27kb] [文件加载：63]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'aa0c6d32-ef8f-4135-8cc0-886007d33475',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`user_id` , `total_price` , `snap_img` , `snap_name` , `total_count` , `snap_items` , `snap_address`) VALUES (1 , 0.05 , 'http://restful_api/images/product-vg@1.png' , '芹菜 半斤 等' , 5 , '[{\"id\":1,\"count\":\"2\",\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.02,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-vg@1.png\"},{\"id\":22,\"count\":\"3\",\"name\":\"\\u6885\\u5170\\u6e05\\u82b1\\u7cd5 1\\u4e2a\",\"totalPrice\":0.03,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-cake-a@3.png\"}]' , '{\"id\":2,\"name\":\"\\u5f20\\u5927a\",\"mobile\":\"13712341234\",\"province\":\"\\u5e7f\\u4e1c\\u7701\",\"city\":\"\\u73e0\\u6d77\\u5e02\",\"country\":\"\\u9999\\u6d321\",\"detail\":\"\\u91d1\\u9e21\\u5cad\",\"delete_time\":null,\"user_id\":1,\"update_time\":\"1970-01-01 08:00:00\"}') [ RunTime:0.036000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:46:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.137000s][吞吐率：7.30req/s] [内存消耗：3,217.38kb] [文件加载：63]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '298acfbd-848d-4f5d-87a5-8e86731fbe0b',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`order_no` , `user_id` , `total_price` , `snap_img` , `snap_name` , `total_count` , `snap_items` , `snap_address`) VALUES ('AB12015682116509' , 1 , 0.05 , 'http://restful_api/images/product-vg@1.png' , '芹菜 半斤 等' , 5 , '[{\"id\":1,\"count\":\"2\",\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.02,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-vg@1.png\"},{\"id\":22,\"count\":\"3\",\"name\":\"\\u6885\\u5170\\u6e05\\u82b1\\u7cd5 1\\u4e2a\",\"totalPrice\":0.03,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-cake-a@3.png\"}]' , '{\"id\":2,\"name\":\"\\u5f20\\u5927a\",\"mobile\":\"13712341234\",\"province\":\"\\u5e7f\\u4e1c\\u7701\",\"city\":\"\\u73e0\\u6d77\\u5e02\",\"country\":\"\\u9999\\u6d321\",\"detail\":\"\\u91d1\\u9e21\\u5cad\",\"delete_time\":null,\"user_id\":1,\"update_time\":\"1970-01-01 08:00:00\"}') [ RunTime:0.037000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:46:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.157000s][吞吐率：6.37req/s] [内存消耗：3,217.38kb] [文件加载：63]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fa653685-a3d4-485a-9957-20ef7b824a6e',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`order_no` , `user_id` , `total_price` , `snap_img` , `snap_name` , `total_count` , `snap_items` , `snap_address`) VALUES ('AB12015713316580' , 1 , 0.05 , 'http://restful_api/images/product-vg@1.png' , '芹菜 半斤 等' , 5 , '[{\"id\":1,\"count\":\"2\",\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.02,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-vg@1.png\"},{\"id\":22,\"count\":\"3\",\"name\":\"\\u6885\\u5170\\u6e05\\u82b1\\u7cd5 1\\u4e2a\",\"totalPrice\":0.03,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-cake-a@3.png\"}]' , '{\"id\":2,\"name\":\"\\u5f20\\u5927a\",\"mobile\":\"13712341234\",\"province\":\"\\u5e7f\\u4e1c\\u7701\",\"city\":\"\\u73e0\\u6d77\\u5e02\",\"country\":\"\\u9999\\u6d321\",\"detail\":\"\\u91d1\\u9e21\\u5cad\",\"delete_time\":null,\"user_id\":1,\"update_time\":\"1970-01-01 08:00:00\"}') [ RunTime:0.036000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:46:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.126000s][吞吐率：7.94req/s] [内存消耗：3,217.43kb] [文件加载：63]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ea1e42e9-c8f1-4eba-9b4b-fe5b37b56caa',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'count' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'count' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,22) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`order_no` , `user_id` , `total_price` , `snap_img` , `snap_name` , `total_count` , `snap_items` , `snap_address`) VALUES ('AB12016082796592' , 1 , 0.05 , 'http://restful_api/images/product-vg@1.png' , '芹菜 半斤 等' , 5 , '[{\"id\":1,\"count\":\"2\",\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.02,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-vg@1.png\"},{\"id\":22,\"count\":\"3\",\"name\":\"\\u6885\\u5170\\u6e05\\u82b1\\u7cd5 1\\u4e2a\",\"totalPrice\":0.03,\"haveStack\":true,\"main_img_url\":\"http:\\/\\/restful_api\\/images\\/product-cake-a@3.png\"}]' , '{\"id\":2,\"name\":\"\\u5f20\\u5927a\",\"mobile\":\"13712341234\",\"province\":\"\\u5e7f\\u4e1c\\u7701\",\"city\":\"\\u73e0\\u6d77\\u5e02\",\"country\":\"\\u9999\\u6d321\",\"detail\":\"\\u91d1\\u9e21\\u5cad\",\"delete_time\":null,\"user_id\":1,\"update_time\":\"1970-01-01 08:00:00\"}') [ RunTime:0.028000s ]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:47:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.663000s][吞吐率：1.51req/s] [内存消耗：3,328.46kb] [文件加载：66]
+
+---------------------------------------------------------------
+[ 2017-11-12T23:47:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.578000s][吞吐率：1.73req/s] [内存消耗：3,328.46kb] [文件加载：66]
+
+---------------------------------------------------------------

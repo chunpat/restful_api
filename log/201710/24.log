@@ -1,0 +1,86 @@
+[ 2017-10-24T23:03:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1.3
+[ log ] restful_api.com/api/v1/banner/1.3 [运行时间：1.344000s][吞吐率：0.74req/s] [内存消耗：1,687.21kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '26beb807-f43d-4392-adc4-b3ff53b8fccc',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1.3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:18]
+
+---------------------------------------------------------------
+[ 2017-10-24T23:03:30+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] restful_api.com/api/v1/banner/1 [运行时间：0.829000s][吞吐率：1.21req/s] [内存消耗：3,043.67kb] [文件加载：62]
+
+---------------------------------------------------------------
+[ 2017-10-24T23:03:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/2
+[ log ] restful_api.com/api/v1/banner/2 [运行时间：0.899000s][吞吐率：1.11req/s] [内存消耗：2,941.17kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8a6e0f89-5463-4b3b-9fb1-8a02532d15d3',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\controller\v1\Banner.php:15]
+
+---------------------------------------------------------------
+[ 2017-10-24T23:23:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] restful_api.com/api/v1/theme/1 [运行时间：0.610000s][吞吐率：1.64req/s] [内存消耗：3,097.87kb] [文件加载：63]
+
+---------------------------------------------------------------
+[ 2017-10-24T23:31:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.492000s][吞吐率：2.03req/s] [内存消耗：2,977.29kb] [文件加载：60]
+
+---------------------------------------------------------------
+[ 2017-10-24T23:32:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.479000s][吞吐率：2.09req/s] [内存消耗：2,977.29kb] [文件加载：60]
+
+---------------------------------------------------------------
+[ 2017-10-24T23:38:57+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] restful_api.com/api/v1/theme?ids=1,2,3 [运行时间：0.475000s][吞吐率：2.11req/s] [内存消耗：2,977.59kb] [文件加载：60]
+
+---------------------------------------------------------------

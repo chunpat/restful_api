@@ -9,7 +9,9 @@
 namespace app\api\model;
 
 
-class Address
+class Address extends BaseModel
 {
+    public function addressNew(){
 
+    }
 }

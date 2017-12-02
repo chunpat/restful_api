@@ -1,0 +1,1021 @@
+[ 2017-11-20T21:33:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：1.427000s][吞吐率：0.70req/s] [内存消耗：2,140.14kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '68',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '0b83337593aa7e8194260bafd25f9392',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '10906',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => 1,
+      'count' => 1,
+    ),
+    1 => 
+    array (
+      'product_id' => 2,
+      'count' => 1,
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\service\Token.php:40]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:34:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] restful_api.com/api/v1/token/user [运行时间：0.996000s][吞吐率：1.00req/s] [内存消耗：2,932.89kb] [文件加载：60]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:35:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.657000s][吞吐率：1.52req/s] [内存消耗：3,453.84kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:35:03+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：0.936000s][吞吐率：1.07req/s] [内存消耗：3,200.88kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '26',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order_id' in 'where clause'[D:\phpstudy2\WWW\tp5\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:35:40+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.526000s][吞吐率：1.90req/s] [内存消耗：3,453.84kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:35:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：0.891000s][吞吐率：1.12req/s] [内存消耗：3,200.88kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '27',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order_id' in 'where clause'[D:\phpstudy2\WWW\tp5\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:37:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.560000s][吞吐率：1.79req/s] [内存消耗：3,453.84kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:37:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：0.893000s][吞吐率：1.12req/s] [内存消耗：3,200.92kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '28',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.014000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order_id' in 'where clause'[D:\phpstudy2\WWW\tp5\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:37:54+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.112000s][吞吐率：8.93req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:39:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：102.492000s][吞吐率：0.01req/s] [内存消耗：3,204.77kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '29',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.017000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order_id' in 'where clause'[D:\phpstudy2\WWW\tp5\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:39:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.158000s][吞吐率：6.33req/s] [内存消耗：3,453.82kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:39:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.134000s][吞吐率：7.46req/s] [内存消耗：3,453.82kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:39:40+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：2.153000s][吞吐率：0.46req/s] [内存消耗：3,307.73kb] [文件加载：69]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '30',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [0]类的属性不存在:app\api\model\Order->orderNO[D:\phpstudy2\WWW\tp5\thinkphp\library\think\Model.php:463]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:39:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：3.988000s][吞吐率：0.25req/s] [内存消耗：3,307.73kb] [文件加载：69]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '31',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [0]类的属性不存在:app\api\model\Order->orderNO[D:\phpstudy2\WWW\tp5\thinkphp\library\think\Model.php:463]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:40:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.129000s][吞吐率：7.75req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:41:16+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：37.629000s][吞吐率：0.03req/s] [内存消耗：3,511.02kb] [文件加载：76]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '32',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 32 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.001000s ]
+[ error ] [1]Class 'WxPayUnifiedOrder' not found[D:\phpstudy2\WWW\tp5\app\api\service\Pay.php:59]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:43:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.107000s][吞吐率：9.35req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:44:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：59.668000s][吞吐率：0.02req/s] [内存消耗：3,514.87kb] [文件加载：76]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '33',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.001000s ]
+[ error ] [1]Class 'WxPayUnifiedOrder' not found[D:\phpstudy2\WWW\tp5\app\api\service\Pay.php:59]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:49:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.121000s][吞吐率：8.26req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T21:49:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：9.688000s][吞吐率：0.10req/s] [内存消耗：3,511.08kb] [文件加载：76]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '34',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 34 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.001000s ]
+[ error ] [1]Class 'WxPayUnifiedOrder' not found[D:\phpstudy2\WWW\tp5\app\api\service\Pay.php:58]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:30:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.663000s][吞吐率：1.51req/s] [内存消耗：3,453.69kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:32:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：123.518000s][吞吐率：0.01req/s] [内存消耗：3,888.04kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '35',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 35 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.002000s ]
+[ error ] [0]curl出错，错误码:60[D:\phpstudy2\WWW\tp5\extend\WxPay\WxPay.Api.php:564]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:38:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：2,140.17kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '68',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '70db1deacc120a0c8eb09672c53ef491',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '10906',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => 1,
+      'count' => 1,
+    ),
+    1 => 
+    array (
+      'product_id' => 2,
+      'count' => 1,
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\service\Token.php:40]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:38:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] restful_api.com/api/v1/token/user [运行时间：0.246000s][吞吐率：4.07req/s] [内存消耗：2,932.85kb] [文件加载：60]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:38:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.180000s][吞吐率：5.56req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:39:58+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：71.204000s][吞吐率：0.01req/s] [内存消耗：3,885.76kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '58783c95fb40f3c3382c9ed5bf214a46',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '36',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 36 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ error ] [0]curl出错，错误码:60[D:\phpstudy2\WWW\tp5\extend\WxPay\WxPay.Api.php:564]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:43:52+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.133000s][吞吐率：7.52req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:44:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：40.704000s][吞吐率：0.02req/s] [内存消耗：3,886.82kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '58783c95fb40f3c3382c9ed5bf214a46',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '37',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 37 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ error ] [0]curl出错，错误码:60[D:\phpstudy2\WWW\tp5\extend\WxPay\WxPay.Api.php:564]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:44:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.122000s][吞吐率：8.20req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:44:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：10.118000s][吞吐率：0.10req/s] [内存消耗：3,885.82kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '58783c95fb40f3c3382c9ed5bf214a46',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '38',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 38 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ error ] [0]curl出错，错误码:60[D:\phpstudy2\WWW\tp5\extend\WxPay\WxPay.Api.php:564]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:47:54+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.190000s][吞吐率：5.26req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:50:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：130.527000s][吞吐率：0.01req/s] [内存消耗：3,902.89kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '58783c95fb40f3c3382c9ed5bf214a46',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '39',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 39 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'appid and openid not match',
+)
+[ error ] 获取预先支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\phpstudy2\WWW\tp5\app\api\service\Pay.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:53:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.116000s][吞吐率：8.62req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:55:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：97.222000s][吞吐率：0.01req/s] [内存消耗：3,902.02kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '58783c95fb40f3c3382c9ed5bf214a46',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '40',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 40 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => '商户号mch_id与appid不匹配',
+)
+[ error ] 获取预先支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\phpstudy2\WWW\tp5\app\api\service\Pay.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:55:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.127000s][吞吐率：7.87req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:55:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：12.528000s][吞吐率：0.08req/s] [内存消耗：3,902.21kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '58783c95fb40f3c3382c9ed5bf214a46',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '41',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 41 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 41 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => '商户号mch_id与appid不匹配',
+)
+[ error ] 获取预先支付订单失败
+[ error ] [8]未定义数组索引: [D:\phpstudy2\WWW\tp5\app\api\service\Pay.php:78]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:56:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=10906
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=10906 [运行时间：0.142000s][吞吐率：7.04req/s] [内存消耗：3,453.80kb] [文件加载：71]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:56:09+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：8.352000s][吞吐率：0.12req/s] [内存消耗：3,894.32kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'pre_order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'token' => '58783c95fb40f3c3382c9ed5bf214a46',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wxa2def963bea70979/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+  'id' => '42',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->pre_order[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 42 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 42 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => '商户号mch_id与appid不匹配',
+)
+[ error ] 获取预先支付订单失败
+[ error ] [0]商户号mch_id与appid不匹配[D:\phpstudy2\WWW\tp5\app\api\service\Pay.php:78]
+
+---------------------------------------------------------------
+[ 2017-11-20T23:56:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：1,722.08kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-20T23:56:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/pay/pre_order?XDEBUG_SESSION_START=11845
+[ log ] restful_api.com/api/v1/pay/pre_order?XDEBUG_SESSION_START=11845 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：1,722.30kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=11845',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11845',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

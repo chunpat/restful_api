@@ -9,7 +9,17 @@
 namespace app\api\validate;
 
 
-class PagingParameter
-{
+use app\api\controller\BaseController;
 
+class PagingParameter extends BaseValidate
+{
+    protected $rule = [
+        'pages' =>'require|isPositiveInteger',
+        'size' =>'require|isPositiveInteger'
+    ];
+
+    protected $message = [
+        'pages' =>'分页必须为正整数',
+        'size' =>'分页数必须为正整数'
+    ];
 }

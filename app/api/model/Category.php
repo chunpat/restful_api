@@ -14,7 +14,7 @@ use think\Model;
 class Category extends BaseModel
 {
     protected $hidden=[
-        'delete_time','create_time','update_time'
+        'delete_time','create_time','update_time','topic_img_id'
     ];
     public function img(){
         return $this->belongsTo('image','topic_img_id','id');

@@ -9,7 +9,7 @@
 namespace app\api\model;
 
 
-class OrderProduct
+class OrderProduct extends BaseModel
 {
 
 }

@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace app\api\controller\v1;
 use app\api\model\Theme as ThemesModel;
 use app\api\validate\IDCollection;
@@ -13,12 +13,12 @@ class Theme{
 	public static function getSimpleThemes($ids=''){
 		(new IDCollection())->goCheck();
 		$ids = explode(',',$ids);
-		
+
 		$result = ThemesModel::getThemesbyIDs($ids);
 		if($result->isEmpty()){
 			throw new ThemesMissException();
 		}
-		return json($result);
+		return json_encode($result->toArray());
 
 	}
     /**
@@ -34,5 +34,5 @@ class Theme{
         }
         return json($result);
     }
-} 
+}
  ?>

@@ -1,0 +1,3143 @@
+[ 2017-11-08T21:36:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.943000s][吞吐率：1.06req/s] [内存消耗：1,944.61kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:36:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,944.62kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:37:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.420000s][吞吐率：2.38req/s] [内存消耗：1,943.66kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:37:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,943.66kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:37:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,943.66kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:37:54+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.427000s][吞吐率：2.34req/s] [内存消耗：1,943.70kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:39:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.920000s][吞吐率：1.09req/s] [内存消耗：2,024.77kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '712448cb-ec03-4c5b-9e5b-01183a4259af',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '29',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => 11.210000000000001,
+  'num' => 1.2,
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:45:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.436000s][吞吐率：2.29req/s] [内存消耗：1,944.48kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:45:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,942.98kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:46:14+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,942.98kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:46:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,942.98kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:46:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,942.98kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:47:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.421000s][吞吐率：2.38req/s] [内存消耗：1,944.48kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:47:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,944.63kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:52:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.422000s][吞吐率：2.37req/s] [内存消耗：1,944.63kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T21:54:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,944.63kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:11:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.423000s][吞吐率：2.36req/s] [内存消耗：1,944.84kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:12:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.420000s][吞吐率：2.38req/s] [内存消耗：1,944.83kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:12:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,944.45kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:12:54+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,944.85kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:16:16+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.422000s][吞吐率：2.37req/s] [内存消耗：1,944.83kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:16:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,944.83kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:16:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,944.83kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:16:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：1,650.34kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '19e70032-65b0-41c4-845b-72a555ec82ba',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  0 => 
+  array (
+    'products' => 
+    array (
+      0 => 
+      array (
+        'goods_id' => '1',
+        'num' => '2',
+      ),
+      1 => 
+      array (
+        'goods_id' => '2',
+        'num' => '3',
+      ),
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '('[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php:27]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:16:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.420000s][吞吐率：2.38req/s] [内存消耗：1,945.46kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:17:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.822000s][吞吐率：1.22req/s] [内存消耗：2,026.53kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '48b857d5-f153-439b-af71-f8d0e396b039',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:17:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,857.30kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '97ea1522-40d0-433d-a54c-7688f54e9125',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T22:17:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.821000s][吞吐率：1.22req/s] [内存消耗：2,027.78kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f7507e9b-7fb7-4dd8-9f8d-5f2e32255ef6',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  0 => 
+  array (
+    'products' => 
+    array (
+      0 => 
+      array (
+        'goods_id' => '1',
+        'num' => '2',
+      ),
+      1 => 
+      array (
+        'goods_id' => '2',
+        'num' => '3',
+      ),
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:17:56+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,857.30kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '204f661b-471a-4a2d-bb9a-dd6a8e2263f2',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T22:18:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.824000s][吞吐率：1.21req/s] [内存消耗：2,026.98kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e5293b8f-7cff-41e9-b04b-d1fe2b6ab49f',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\OrderPlace.php:27]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:18:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.820000s][吞吐率：1.22req/s] [内存消耗：2,027.01kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '140cd368-97f7-436d-bc5e-0145a9db1938',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\OrderPlace.php:27]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:18:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.821000s][吞吐率：1.22req/s] [内存消耗：2,027.06kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c0b81c1b-f849-4bd7-87c1-2dc773af855c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:19:18+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.821000s][吞吐率：1.22req/s] [内存消耗：2,026.38kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8b7bac2f-a3a2-48ae-bd7f-726390481a45',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:23:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.424000s][吞吐率：2.36req/s] [内存消耗：1,943.67kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:23:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,943.67kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:24:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：1,944.04kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:24:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.823000s][吞吐率：1.22req/s] [内存消耗：2,026.56kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0b06dd53-c261-4acf-90c0-98cf005eaa0a',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '246',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:28:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.825000s][吞吐率：1.21req/s] [内存消耗：2,028.94kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6af60c41-7e3a-4c21-a0dd-7b88d84dfc68',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '246',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:28:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.822000s][吞吐率：1.22req/s] [内存消耗：2,029.30kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '70bcac51-d4f7-4125-9a7a-97d88ff085f3',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '246',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:28:55+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.821000s][吞吐率：1.22req/s] [内存消耗：2,029.36kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b54a0ae3-1c2c-41ef-b82c-b2388a85cc25',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '246',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:29:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/address?XDEBUG_SESSION_START=17818
+[ log ] restful_api.com/api/v1/address?XDEBUG_SESSION_START=17818 [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：1,720.43kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 BIDUBrowser/6.x Safari/537.36',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '17818',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T22:30:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：1,720.35kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 BIDUBrowser/6.x Safari/537.36',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=17818',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T22:30:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,029.80kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6d0dc56e-1ecc-46cc-b68a-44a33759587d',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '246',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:30:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,029.72kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2060397f-716a-4080-a64f-06df9803dd76',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '246',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:30:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：8.203000s][吞吐率：0.12req/s] [内存消耗：2,031.88kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bdfe8133-e117-43bd-8476-93fcc357939d',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '246',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:30:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：4.915000s][吞吐率：0.20req/s] [内存消耗：2,031.91kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '654b6ef7-1da6-468f-b4a5-8dfaec4fc564',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：2,029.72kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b5c614a2-d10c-4465-8a38-b7080f463409',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：2,030.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7a9be19f-727c-4cc2-b1e0-81bda7b28d0f',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：2,030.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'de672b09-5c97-40a2-96e5-9e6f0d5ffc0b',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：2,030.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '34876584-2dc0-4f9c-b12d-cbc89811f619',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：2,030.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '20db0aee-1ce4-4f28-8b7e-93b4e7541efd',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：2,030.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'febc63cf-173f-43d4-857a-f0d0d24ee740',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,030.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd6c0d1d3-90d8-4bd1-a02b-04c14875e61b',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,030.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '70eedde1-83d3-40a6-9b92-f39c4e9e8615',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,811.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3aa10612-8a48-466a-b2d6-1fce68801c57',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,811.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '85aeaf45-4082-4af0-b3b7-2f5c829266c1',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T22:31:56+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：2,030.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '907fcae4-8d51-4f9d-9a6e-9d1409d6c062',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:32:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：2,029.73kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5828e4cb-977b-4467-ad60-af64223fa4ca',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:32:23+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,981.93kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a71cd46d-0bd5-49e7-8463-e3c477bc9bbe',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'if' (T_IF)[D:\phpstudy2\WWW\tp5\app\api\validate\OrderPlace.php:27]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:32:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：2,029.82kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9f5234d4-f36c-42df-92be-8bf5134e9787',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:33:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：2,029.72kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a73b8d5d-9a8e-413b-acea-712ca1dfa1d6',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:34:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,029.91kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'df365232-ef57-486e-9a54-4ea89249b5a7',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:34:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：2,029.91kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ff96ecde-047a-4dbb-8707-2403e64256ed',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:34:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：2,029.91kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5aac08ff-ea6c-45d7-99e0-c6e0c8ee2a82',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:34:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：2,029.91kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e864e7dd-ee9d-44b2-81eb-4c4b3f293db5',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:34:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：2,029.91kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a35d0db6-0a24-4151-b19a-59945c603697',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:35:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：72.395000s][吞吐率：0.01req/s] [内存消耗：2,031.78kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c77b3f8b-4fe4-428c-aaf8-e2ab9aef5a66',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:37:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：3.012000s][吞吐率：0.33req/s] [内存消耗：1,861.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '80a2b78b-edd1-41f5-9a50-cda3937494e9',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.2',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T22:38:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：1.933000s][吞吐率：0.52req/s] [内存消耗：1,862.11kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fa339ea0-59fa-4595-82d9-e72f7571d2f6',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '238',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T22:39:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：1.435000s][吞吐率：0.70req/s] [内存消耗：2,030.10kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b2c5e78f-4b5a-4677-882a-d5680aaf6904',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '238',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:40:09+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：1.260000s][吞吐率：0.79req/s] [内存消耗：1,948.66kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:40:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：2.119000s][吞吐率：0.47req/s] [内存消耗：2,030.10kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7483b6eb-2853-4e83-8d4a-cbc5e99f356f',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '238',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:40:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：1.801000s][吞吐率：0.56req/s] [内存消耗：2,030.17kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e1130303-dfa4-43ec-92a1-07703f87b316',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '242',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:40:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：2,030.17kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '64c6d634-d67f-4ca5-a2a0-da7969812b60',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '242',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:40:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：2,030.17kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ac5af4c6-d8b7-4df3-a964-85a5ad253433',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '242',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:40:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,030.17kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '55bcb24f-be01-4116-b377-8d0e81a03116',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '242',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:41:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：2,030.17kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8d0adb8c-04a8-4f44-9330-a5d2a61ed273',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '242',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:41:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：2,030.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'af138d3e-b2e3-42b3-b431-623240b590bb',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '245',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.23',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:41:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：2,030.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7e1270e5-26ed-432a-8840-a1a2cf091e61',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.23',
+      'num' => '2.1',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：76.181000s][吞吐率：0.01req/s] [内存消耗：2,030.14kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f08b6794-5320-4513-8ee7-38e453a7b802',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.23',
+      'num' => '2.1',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:43:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：19.053000s][吞吐率：0.05req/s] [内存消耗：2,030.05kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '61439e09-2978-44bf-a68d-169d2fb3d5e1',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.23',
+      'num' => '2.1',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\OrderPlace.php:46]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:43:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：2.461000s][吞吐率：0.41req/s] [内存消耗：2,030.05kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f5be4fd-61ec-49e8-9da7-347d423d56c2',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '247',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1.23',
+      'num' => '2.1',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.212',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\OrderPlace.php:46]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:43:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：8.390000s][吞吐率：0.12req/s] [内存消耗：2,030.20kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'df86c4ee-cfc2-487d-91a8-b7158971568c',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '239',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:43:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/order
+[ log ] restful_api.com/api/v1/order [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,720.10kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'restful_api.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 BIDUBrowser/6.x Safari/537.36',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=11788',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T22:43:56+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,948.73kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:44:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：1,948.60kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:44:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：2,030.37kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'add61770-f13b-44f9-808d-249ee89b2ca9',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '240',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'goods_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'goods_id' => '2.2',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\OrderPlace.php:46]
+
+---------------------------------------------------------------
+[ 2017-11-08T22:44:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,948.60kb] [文件加载：50]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:11:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,041.16kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '08db9f58-f133-40f8-92b6-bff7971ea3af',
+  'content-type' => 'application/json',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\service\Token.php:34]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:25:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] restful_api.com/api/v1/token/user [运行时间：0.380000s][吞吐率：2.63req/s] [内存消耗：2,928.66kb] [文件加载：60]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:26:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：2,123.91kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ca32de30-fcc0-4b35-98b7-e0f236733523',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2048]Non-static method app\api\service\Order::place() should not be called statically, assuming $this from incompatible context[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php:31]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:28:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：24.201000s][吞吐率：0.04req/s] [内存消耗：2,124.03kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2a408203-00cf-4970-a7fb-ff9c8198f10d',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: product_id[D:\phpstudy2\WWW\tp5\app\api\service\Order.php:23]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:30:03+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：26.558000s][吞吐率：0.04req/s] [内存消耗：2,124.03kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '418b96f3-df70-4995-8568-51f2da8e318d',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: product_id[D:\phpstudy2\WWW\tp5\app\api\service\Order.php:23]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:30:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：7.090000s][吞吐率：0.14req/s] [内存消耗：2,124.00kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7fa018ff-8121-4caa-90fa-fbfc711e3a65',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: product_id[D:\phpstudy2\WWW\tp5\app\api\service\Order.php:23]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:31:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：7.772000s][吞吐率：0.13req/s] [内存消耗：2,124.09kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c4f5f10c-0d32-4a7f-bac4-0353d13e9f3d',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: product_id[D:\phpstudy2\WWW\tp5\app\api\service\Order.php:23]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:33:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：120.034000s][吞吐率：0.01req/s] [内存消耗：2,125.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1d8a0b40-8514-4c47-b079-d4895698989d',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: product_id[D:\phpstudy2\WWW\tp5\app\api\service\Order.php:23]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:33:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：11.088000s][吞吐率：0.09req/s] [内存消耗：2,124.48kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '98b9eb22-a134-4955-aa53-f274d3b8b586',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: product_id[D:\phpstudy2\WWW\tp5\app\api\service\Order.php:23]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:35:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：53.689000s][吞吐率：0.02req/s] [内存消耗：2,124.35kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'placeOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '56b42049-c5b5-4163-9576-9d4b277aa44a',
+  'content-type' => 'application/json',
+  'token' => '1ad578ef05772051ad692246605e0768',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '11788',
+  'products' => 
+  array (
+    0 => 
+    array (
+      'product_id' => '1',
+      'num' => '2',
+    ),
+    1 => 
+    array (
+      'product_id' => '22',
+      'num' => '3',
+    ),
+  ),
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->placeOrder[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: product_id[D:\phpstudy2\WWW\tp5\app\api\service\Order.php:23]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:37:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：96.913000s][吞吐率：0.01req/s] [内存消耗：3,314.88kb] [文件加载：67]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:37:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：17.880000s][吞吐率：0.06req/s] [内存消耗：3,312.65kb] [文件加载：67]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:38:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：19.311000s][吞吐率：0.05req/s] [内存消耗：3,313.69kb] [文件加载：67]
+
+---------------------------------------------------------------
+[ 2017-11-08T23:38:39+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=11788
+[ log ] restful_api.com/api/v1/order?XDEBUG_SESSION_START=11788 [运行时间：3.118000s][吞吐率：0.32req/s] [内存消耗：3,314.01kb] [文件加载：67]
+
+---------------------------------------------------------------

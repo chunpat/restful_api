@@ -1,0 +1,989 @@
+[ 2017-11-28T23:14:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：1.361000s][吞吐率：0.73req/s] [内存消耗：1,723.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2a819a8c-7b06-4533-8fcd-c48a494a9102',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-28T23:15:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.879000s][吞吐率：1.14req/s] [内存消耗：1,723.43kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dc5f99ed-6993-474b-9121-16546690aad4',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-28T23:15:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.104000s][吞吐率：9.62req/s] [内存消耗：1,989.84kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4b8c6cdd-3114-442e-808f-faed6c17f760',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:24]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:16:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：1,989.84kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1f7a594a-ac9b-4891-8a5f-4a51a379e277',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:24]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:16:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：1,989.84kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '43727359-05cc-48ac-97a1-427f18995e22',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:24]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:17:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：1,989.84kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '989d2fab-ab51-44d8-b125-8a130f834400',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:24]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:17:41+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：1,989.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '444d526f-b412-4123-be18-a466ef93da62',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:24]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:18:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3b3424b5-e6b3-4dc2-93be-fb187d859fb6',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:18:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7997f130-6fdf-4c2b-ab60-3cd41f4b0baf',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:18:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4592f6d5-4249-4521-a9e9-2af5f6addbdb',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:19:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.064000s][吞吐率：15.63req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '710e313c-2ace-49a7-9fe4-436c52b4e5eb',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:19:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：1,987.72kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '016be568-366f-4dd0-8b0c-dd6c117216eb',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\api\service\WxNotify::Handle()[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php:31]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:20:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4aeceb95-07eb-4c10-8e8c-ed2e554b716f',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:20:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：1,989.84kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f1d8a19d-7ad3-49c5-9518-3f63f9878f62',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\service\WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:20:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '88bf10ad-70a6-4085-933d-a106664e257a',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:21:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：1,990.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a50264f7-bb8f-47cc-9bf2-ba14df9ca44d',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:22]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:22:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '083f1f53-9995-4136-a06e-51712d78c13f',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:16+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd544baa4-9610-412a-8094-bc2738f482a6',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：1,989.83kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '60662abe-88bb-49d3-818d-c6ee4b7ef0b5',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify1' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2fcfc181-abab-498c-8513-798ca7c0f941',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：1,989.83kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '318703f1-f484-43be-b330-d9a8693205a1',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify2' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6ae41985-8b5e-4f7a-82ee-ee5b75382efc',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ca32e11c-5216-46ac-90ea-44f9bb11ec7b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ced77903-15fd-4bf3-94ab-6f917cc2186d',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd969e6ca-01ab-46d6-8e69-a8b9b49b630d',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7132cb1d-ab09-4766-a615-b476f313f011',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:23:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1cdbfd3c-bb7c-48a1-bdb9-8e020d8caefe',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:24:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'df369bfa-67e7-4c4e-8dbd-deb5d3e11f40',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:24:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.070000s][吞吐率：14.29req/s] [内存消耗：1,990.11kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5fdb400b-e1f9-44ca-878c-3744647068ef',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:24:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：1,989.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd9690177-c87b-401c-9bef-e6ab98ad2ecf',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:24:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：1,989.80kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4672df23-eb83-4a57-87c0-56d13257b60e',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'WxPayNotify' not found[D:\phpstudy2\WWW\tp5\app\api\service\WxNotify.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:25:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.506000s][吞吐率：1.98req/s] [内存消耗：2,340.76kb] [文件加载：54]
+
+---------------------------------------------------------------
+[ 2017-11-28T23:25:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/pay/notify
+[ log ] restful_api.com/api/v1/pay/notify [运行时间：0.872000s][吞吐率：1.15req/s] [内存消耗：2,406.06kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Pay',
+    2 => 'receiveNotify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c25186f5-d202-4d0b-922e-306cbdbeb649',
+  'content-type' => 'text/plain',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Pay->receiveNotify[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Pay.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found[D:\phpstudy2\WWW\tp5\extend\WxPay\WxPay.Data.php:86]
+
+---------------------------------------------------------------

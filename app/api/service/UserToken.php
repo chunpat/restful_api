@@ -7,10 +7,12 @@
  * Time: 21:17
  */
 namespace app\api\service;
+use app\api\model\User as UserModel;
+use app\lib\enum\ScopeEnum;
 use app\lib\exception\TokenException;
 use app\lib\exception\WeChatException;
+use think\Cache;
 use think\Exception;
-use app\api\model\User as UserModel;
 
 class UserToken extends Token
 {
@@ -31,6 +33,7 @@ class UserToken extends Token
         $result = curl_get($this->wxLoginUrl);
 
         $wxResult = json_decode($result,true);
+
         if(empty($wxResult)){
             throw new Exception('获取session_key及openid异常，微信内部错误');
         }else{
@@ -39,7 +42,7 @@ class UserToken extends Token
             if($rst){
                 $this-> processLoginError($wxResult);
             }else{
-                $this -> grantToken($wxResult);
+                return $this -> grantToken($wxResult);
             }
         }
 
@@ -62,7 +65,7 @@ class UserToken extends Token
         }
 
         $cachedValue = $this->prepareCachedValue($wxResult,$uid);
-        $key  = saveToCache($cachedValue);
+        $key  = $this->saveToCache($cachedValue);
         return $key;
 
         
@@ -80,16 +83,16 @@ class UserToken extends Token
     private function prepareCachedValue($wxResult,$uid){
         $cachedValue = $wxResult;
         $cachedValue['uid'] = $uid;
-        $cachedValue['scope'] = 16;
+        $cachedValue['scope'] = ScopeEnum::user;
         return $cachedValue;
     }
 
     private function saveToCache($cachedValue){
         $key = self::generateToken();
         $value = json_encode($cachedValue);
-        $expire_in = config('setting.token_expire_in');
 
-        $request = cache($key,$value,$expire_in);
+        $expire_in = config('setting.token_expire_in');
+        $request = Cache::set($key,$value,$expire_in);
         if(!$request){
             throw new TokenException(
                 [
@@ -110,4 +113,6 @@ class UserToken extends Token
            ]
             );
     }
+
+
 }

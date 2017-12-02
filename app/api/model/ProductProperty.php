@@ -1,6 +1,3 @@
-/**
-* Created by zzhpeng on 2017/11/2.
-*/
 <?php
 /**
  * Created by PhpStorm.
@@ -12,7 +9,10 @@
 namespace app\api\model;
 
 
-class ProductProperty
+class ProductProperty extends BaseModel
 {
 
+    protected $hidden=[
+        'delete_time','product_id','id'
+    ];
 }

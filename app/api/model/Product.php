@@ -14,6 +14,14 @@ class Product extends BaseModel
         'delete_time','update_time','create_time','from','pivot'
     ];
 
+    public function property(){
+        return $this->hasMany('ProductProperty','product_id','id')->order(array('update_time desc'));
+    }
+
+    public function images(){
+        return $this->hasMany('ProductImage','product_id','id')->order(array('order'=>'asc'));
+    }
+
     public function getMainImgUrlAttr($value, $data){
 //        return 'success';
         return $this->prefixImgUrl($value, $data);
@@ -33,7 +41,10 @@ class Product extends BaseModel
         return $result;
     }
 
-
+    public static function getProduct($id){
+        return self::with(['property','images.img'])
+                ->find($id);
+    }
 
 
 
