@@ -93,4 +93,13 @@ class Token
     }
 
 
+    public static function verifyToken($token){
+        $result = Cache::get($token);
+        if($result){
+            return true;
+        }
+        return false;
+    }
+
+
 }

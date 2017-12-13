@@ -1,0 +1,841 @@
+[ 2017-12-12T21:14:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：1.278000s][吞吐率：0.78req/s] [内存消耗：1,728.86kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '16b4413f-bd37-4a8c-8d59-d96d7b91d54a',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-12T21:14:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.877000s][吞吐率：1.14req/s] [内存消耗：1,633.30kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'verifyToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd92c45b2-3809-4c14-a677-3c3161b1fa18',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:token[D:\phpstudy2\WWW\tp5\thinkphp\library\think\App.php:294]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:15:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.878000s][吞吐率：1.14req/s] [内存消耗：1,666.57kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'verifyToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ffb2f97f-49c8-4a36-a0bb-b09c5ddc73e5',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->verifyToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php:32]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:20:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.470000s][吞吐率：2.13req/s] [内存消耗：1,704.01kb] [文件加载：46]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:20:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] restful_api.com/api/v1/token/user [运行时间：1.101000s][吞吐率：0.91req/s] [内存消耗：1,737.48kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3f40edf0-6048-4744-9957-d452032ded3f',
+  'content-type' => 'multipart/form-data; boundary=--------------------------386232418197103206979472',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '191',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013Do18p0HhCro17h6bp0vOW7p0Do18u',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:109]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:21:39+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] restful_api.com/api/v1/token/user [运行时间：0.816000s][吞吐率：1.23req/s] [内存消耗：2,943.48kb] [文件加载：60]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:21:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] restful_api.com/api/v1/token/user [运行时间：1.032000s][吞吐率：0.97req/s] [内存消耗：1,737.48kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '74f73a1c-84c3-43ef-b17b-46947379cd8b',
+  'content-type' => 'multipart/form-data; boundary=--------------------------469616687591688500646284',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '191',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'code' => '1278df28c08d719811cd3273e0a1f87a',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\service\UserToken.php:109]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:22:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.467000s][吞吐率：2.14req/s] [内存消耗：1,703.93kb] [文件加载：46]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:22:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.424000s][吞吐率：2.36req/s] [内存消耗：1,703.95kb] [文件加载：46]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:22:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.453000s][吞吐率：2.21req/s] [内存消耗：1,703.93kb] [文件加载：46]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:25:18+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.458000s][吞吐率：2.18req/s] [内存消耗：1,695.25kb] [文件加载：45]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:25:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.469000s][吞吐率：2.13req/s] [内存消耗：1,695.25kb] [文件加载：45]
+
+---------------------------------------------------------------
+[ 2017-12-12T21:25:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.422000s][吞吐率：2.37req/s] [内存消耗：1,703.93kb] [文件加载：46]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:39:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：1,657.19kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fbe93c0e-160e-4963-98f1-f6340350b2f2',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ThirdAppValidate' not found[D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php:31]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:40:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.863000s][吞吐率：1.16req/s] [内存消耗：1,710.53kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '853e37ea-d5f9-4554-bfc4-a1ba6171d56b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:40:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.827000s][吞吐率：1.21req/s] [内存消耗：1,710.91kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ba267a9-001b-438f-85ae-ef193f37371b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------280513680177307990139339',
+  'content-length' => '157',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:41:03+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.849000s][吞吐率：1.18req/s] [内存消耗：1,693.19kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2c76bd3c-4e75-445b-a366-536da37f96c9',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------383666397905202592429794',
+  'content-length' => '274',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12321321321',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[D:\phpstudy2\WWW\tp5\thinkphp\library\think\Validate.php:972]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:41:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.891000s][吞吐率：1.12req/s] [内存消耗：1,693.17kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2e1e83cf-ce78-4fef-9f65-a354a874e40c',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------211917856388723328281752',
+  'content-length' => '274',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12321321321',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[D:\phpstudy2\WWW\tp5\thinkphp\library\think\Validate.php:972]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:41:28+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.880000s][吞吐率：1.14req/s] [内存消耗：1,693.16kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9a1777ce-b5e2-41c3-ab72-8f0a7c51d270',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------533204018746347110628147',
+  'content-length' => '274',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12321321321',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[D:\phpstudy2\WWW\tp5\thinkphp\library\think\Validate.php:972]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:41:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.887000s][吞吐率：1.13req/s] [内存消耗：1,693.23kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'babeffd1-a37c-4ebe-a655-32294906508d',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------392022985126720130268047',
+  'content-length' => '274',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12321321321',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[D:\phpstudy2\WWW\tp5\thinkphp\library\think\Validate.php:972]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:42:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.839000s][吞吐率：1.19req/s] [内存消耗：1,711.00kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1e18ed5f-c961-41b8-9c72-e300f7f2a67f',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------115677109596363936031846',
+  'content-length' => '274',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12321321321',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:42:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.877000s][吞吐率：1.14req/s] [内存消耗：1,710.99kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '99c3f7a5-4bd2-4a3b-ab55-693872bc46b7',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------498550587074277395239474',
+  'content-length' => '274',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12321321321',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:43:05+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.452000s][吞吐率：2.21req/s] [内存消耗：1,628.84kb] [文件加载：43]
+
+---------------------------------------------------------------
+[ 2017-12-12T22:59:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.831000s][吞吐率：1.20req/s] [内存消耗：1,711.00kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '20328a4e-f100-4e0d-87d4-cffbf17259c2',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------592532984004115320424676',
+  'content-length' => '274',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12321321321',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:00:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.857000s][吞吐率：1.17req/s] [内存消耗：1,711.00kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e66537d3-4da0-4afe-a5ed-7a68a5297150',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------306052767852082462416620',
+  'content-length' => '274',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12321321321',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:00:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.449000s][吞吐率：2.23req/s] [内存消耗：1,628.88kb] [文件加载：43]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:00:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.830000s][吞吐率：1.20req/s] [内存消耗：1,711.00kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f77bd9d-ca74-435a-bffa-abeb74611e9e',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------162054738035902149902153',
+  'content-length' => '266',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '123',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:02:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.424000s][吞吐率：2.36req/s] [内存消耗：1,628.92kb] [文件加载：43]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:02:18+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.863000s][吞吐率：1.16req/s] [内存消耗：1,711.02kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a6f21a67-0452-4c13-b819-973d4da2f207',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------029698317385904170797788',
+  'content-length' => '268',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12333',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:02:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.852000s][吞吐率：1.17req/s] [内存消耗：1,710.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e16e8a8f-8a62-4198-b4b1-a6b7a1081243',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------604799283741191716534897',
+  'content-length' => '268',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12333',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:03:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.851000s][吞吐率：1.18req/s] [内存消耗：1,710.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd53ac9ba-c482-43f0-8030-cce5a7f1fb32',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------432464230537024505041352',
+  'content-length' => '268',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12333',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:03:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.449000s][吞吐率：2.23req/s] [内存消耗：1,628.78kb] [文件加载：43]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:03:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.864000s][吞吐率：1.16req/s] [内存消耗：1,710.98kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c74f2506-328c-430f-a2a9-f204dfe8220b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------549626882035462515485127',
+  'content-length' => '265',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '12321',
+  'se' => '12',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:05:14+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.878000s][吞吐率：1.14req/s] [内存消耗：1,711.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '50f507bb-6e6b-4f70-84d4-de81b0d52d1a',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------899741899744317816482541',
+  'content-length' => '260',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '',
+  'se' => '12',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:06:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.864000s][吞吐率：1.16req/s] [内存消耗：1,711.07kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7c5ba800-98a1-4cea-ac83-5d5197a36409',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------269563822699007113884981',
+  'content-length' => '260',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '',
+  'se' => '12',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
+[ 2017-12-12T23:06:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.848000s][吞吐率：1.18req/s] [内存消耗：1,710.95kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '868021eb-7951-4c2b-bb68-e8e51d7d1df7',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------570148536154640980724325',
+  'content-length' => '260',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => '',
+  'se' => '12',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400][D:\phpstudy2\WWW\tp5\app\api\validate\BaseValidate.php:20]
+
+---------------------------------------------------------------
