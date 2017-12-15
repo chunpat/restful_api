@@ -9,7 +9,11 @@
 namespace app\api\model;
 
 
-class ThirdApp
+class ThirdApp extends BaseModel
 {
+    public static function check($ac,$se){
+        $rst = self::where('app_id','=',$ac)->where('app_secret','=',$se)->find();
+        return $rst;
+    }
 
 }

@@ -8,7 +8,7 @@
 
 namespace app\api\controller\v1;
 
-
+use app\api\service\AppToken;
 use app\api\validate\ThirdAppValidate;
 use app\api\validate\TokenGet;
 use app\api\service\UserToken;
@@ -30,6 +30,11 @@ class Token
 
     public function getAppToken($ac = '',$se = ''){
         (new ThirdAppValidate())->goCheck();
+        $app = new AppToken();
+        $token = $app->get($ac,$se);
+        return json([
+            'token'=>$token
+        ]);
     }
 
     public function verifyToken($token = ''){

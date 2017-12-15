@@ -9,6 +9,7 @@
 namespace app\api\controller\v1;
 
 use app\api\controller\BaseController;
+use app\api\service\DeliveryMessage;
 use app\api\v1;
 use app\api\validate\IDMustBePositiveInt;
 use app\api\validate\OrderPlace;
@@ -17,6 +18,7 @@ use app\api\service\Order as OrderService;
 use app\api\model\Order as OrderModel;
 use app\api\validate\PagingParameter;
 use app\lib\exception\OrderException;
+use app\lib\exception\SuccessMessage;
 
 class Order extends BaseController
 {
@@ -65,5 +67,14 @@ class Order extends BaseController
         }
 
         return $orderDetail->hidden(['prepay_id']);
+    }
+
+    public function delivery($id = 0,$jump_url=''){
+        (new IDMustBePositiveInt())->goCheck();
+        //判断数据&&发送消息
+        $success = OrderService::delivery($id,$jump_url);
+        if($success){
+            return new SuccessMessage();
+        }
     }
 }

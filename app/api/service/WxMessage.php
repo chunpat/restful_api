@@ -42,14 +42,14 @@ class WxMessage
 
         ];
         $WxResult = curl_post($this->send_url,$data);
-        $result = json_encode($WxResult,true);
+        $result = json_decode($WxResult,true);
         if(!$result){
             throw new Exception('发送收货微信短信出错');
         }
         if($result['errcode'] == 0){
             return true;
         }else{
-            throw new Exception('模板消息发送失败'.$result['errcode']);
+            throw new Exception('模板消息发送失败-'.$result['errcode'].$result['errmsg']);
         }
     }
 

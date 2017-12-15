@@ -10,6 +10,7 @@ namespace app\api\service;
 use app\api\model\OrderProduct;
 use app\api\model\Product;
 use app\api\model\UserAddress;
+use app\lib\enum\OrderStatusEnum;
 use app\lib\exception\OrderException;
 use app\lib\exception\UserException;
 use think\Db;
@@ -188,5 +189,28 @@ class Order
                 'd') . substr(time(), -5) . substr(microtime(), 2, 5) . sprintf(
                 '%02d', rand(0, 99));
         return $orderSn;
+    }
+
+
+
+    public function delivery($orderID,$jumpUrl = ''){
+        $orderDetail = OrderModel::get($orderID);
+        if(!$orderDetail){
+            throw new OrderException();
+        }
+        if($orderDetail->status != OrderStatusEnum::PAID){
+            throw new OrderException(
+                [
+                    'msg' =>'还没支付呢，想干嘛？或许你已经更新了订单，别再刷了！',
+                    'code'=>403,
+                    'errorCode'=>80002
+                ]
+            );
+        }
+        $orderDetail->status = OrderStatusEnum::DELIVERED;
+        $orderDetail->save();
+        $delivery = new DeliveryMessage();
+        return $delivery->sendDeliveryMessage($orderDetail,$jumpUrl);
+
     }
 }

@@ -21,7 +21,7 @@ class User extends BaseModel
     }
 
     public static function getOpenIdByUserId($userId){
-        $openId =self::where('user_id','=',$userId)->find('open_id');
+        $openId =self::where('id','=',$userId)->value('openid');
         return $openId;
     }
 

@@ -1,0 +1,80 @@
+[ 2017-12-15T20:34:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.772000s][吞吐率：1.30req/s] [内存消耗：1,726.50kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '988c1e76-6b9a-4164-be70-528c59ad5756',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------659606576838032642858388',
+  'content-length' => '269',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => 'starcraft',
+  'se' => '12',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\api\model\ThirdApp::where()[D:\phpstudy2\WWW\tp5\app\api\model\ThirdApp.php:15]
+
+---------------------------------------------------------------
+[ 2017-12-15T20:35:55+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：1.050000s][吞吐率：0.95req/s] [内存消耗：2,914.52kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy2\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getAppToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9a2a35ba-1fc2-4916-8036-440c4fd5507b',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'restful_api.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------512792520409357026547233',
+  'content-length' => '269',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ac' => 'starcraft',
+  'se' => '12',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getAppToken[ D:\phpstudy2\WWW\tp5\app\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `third_app` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `third_app` WHERE  `app_id` = 'starcraft'  AND `app_secret` = '12' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [404][D:\phpstudy2\WWW\tp5\app\api\service\AppToken.php:23]
+
+---------------------------------------------------------------
+[ 2017-12-15T20:36:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ log ] restful_api.com/api/v1/token/app [运行时间：0.567000s][吞吐率：1.76req/s] [内存消耗：2,939.90kb] [文件加载：59]
+
+---------------------------------------------------------------
+[ 2017-12-15T20:36:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/verify
+[ log ] restful_api.com/api/v1/token/verify [运行时间：0.456000s][吞吐率：2.19req/s] [内存消耗：1,709.73kb] [文件加载：46]
+
+---------------------------------------------------------------

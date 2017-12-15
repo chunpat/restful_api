@@ -38,7 +38,7 @@ class DeliveryMessage extends WxMessage
                 "color"=> "#173177"
             ],
             'keyword3'=>[
-                "value"=>$order->order_sn,
+                "value"=>$order->order_no,
             ],
             'keyword4'=>[
                 "value"=>$dt->format('Y-m-d H:i'),

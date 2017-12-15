@@ -35,6 +35,8 @@ Route::post('api/:version/address','api/:version.Address/CreateorUpdateAddress')
 Route::post('api/:version/order','api/:version.Order/placeOrder');
 Route::get('api/:version/order/:id','api/:version.Order/getDetail',[],['id'=>'\d+']);
 Route::get('api/:version/order/getSummary','api/:version.Order/getSummaryByUser');
+Route::put('api/:version/order/delivery','api/:version.Order/delivery');
+
 
 //pay
 Route::post('api/:version/pay/pre_order','api/:version.Pay/pre_order');
