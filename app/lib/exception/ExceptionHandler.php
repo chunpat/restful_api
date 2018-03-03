@@ -29,7 +29,7 @@ class ExceptionHandler extends Handle
         }
         else
         {
-            //Config::get('app_debug');
+            //线上环境下，代码错误 不用给前端用户看到详细的返回数据
             if (config('app_debug')){
                 return parent::render($e);
             }

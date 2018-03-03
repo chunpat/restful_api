@@ -2,7 +2,6 @@
 namespace app\api\validate;
 // use think\Validate;
 
-
 /**
 * 
 */

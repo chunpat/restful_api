@@ -8,12 +8,9 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-// $Id$
-
-// if (is_file($_SERVER["DOCUMENT_ROOT"] . $_SERVER["REQUEST_URI"])) {
-//    return false;
-// } else {
-//    require __DIR__ . "/index.php";
-use think\Route;
-
-Route::get('api/v1/banner/:id','api/v1.Banner/getBanner');
+// $Id
+ if (is_file($_SERVER["DOCUMENT_ROOT"] . $_SERVER["REQUEST_URI"])) {
+    return false;
+ } else {
+     require __DIR__ . "/index.php";
+ }
