@@ -12,7 +12,7 @@ class Banner{
 
 
 		if (!$banner){
-            throw new BannerMissException('不存在');
+            throw new BannerMissException();
         }
        return json($banner);
 	}

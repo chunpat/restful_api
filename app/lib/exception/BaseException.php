@@ -17,7 +17,7 @@ class BaseException extends Exception
     public $code;
 
     //错误具体信息
-    public $msg = 参数错误;
+    public $msg = "参数错误";
 
     //自定义的错误码
     public $errorCode = 10000;

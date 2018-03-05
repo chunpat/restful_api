@@ -17,8 +17,7 @@ class BaseValidate extends Validate{
             ->check($params);
         if (!$result)
         {
-            $e = new ParameterException(
-                [
+            $e = new ParameterException([
                     'msg' => $this->error,
                 ]);
             throw $e;
