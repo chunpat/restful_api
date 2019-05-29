@@ -1,0 +1,1 @@
+npx apidoc -f ".*\\.php$"  -i ./app/api/controller/ -o ./public/apidoc
