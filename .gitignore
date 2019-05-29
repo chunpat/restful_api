@@ -1,0 +1,9 @@
+Log
+composer.lock
+.idea/
+Temp/
+vendor/
+.env
+.idea/php.xml
+.idea/workspace.xml
+public/apidoc/
