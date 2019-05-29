@@ -62,7 +62,27 @@ class BaseController extends Controller
      */
 
     /**
-     * @apiDefine Banner 横条
+     * @apiDefine Index 首页
+     */
+
+    /**
+     * @apiDefine Category 分类
+     */
+
+    /**
+     * @apiDefine My 我的
+     */
+
+    /**
+     * @apiDefine Order 订单
+     */
+
+    /**
+     * @apiDefine User 用户
+     */
+
+    /**
+     * @apiDefine Product 产品
      */
 
     protected function needPrimaryScope(){

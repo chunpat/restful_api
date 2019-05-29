@@ -5,6 +5,7 @@ use app\api\validate\IDMustBePositiveInt;
 use app\lib\exception\BannerMissException;
 
 class Banner{
+
     /**
      * 获取banner
      * @author: zzhpeng
@@ -17,7 +18,7 @@ class Banner{
      *
      * @api                {get}  /api/api/v1/banner/{$id} 获取banner
      * @apiName            getBanner
-     * @apiGroup           Banner
+     * @apiGroup           Index
      * @apiVersion         0.0.1
      * @apiSampleRequest   /api/api/v1/banner/{$id}
      * @apiDescription     获取banner
@@ -28,8 +29,9 @@ class Banner{
      * @apiSuccess {string} name           banner名
      * @apiSuccess {string} description    描述
      * @apiSuccess {array}  items
-     * @apiSuccess {string} items.key_word
-     * @apiSuccess {int}    items.type
+     * @apiSuccess {string} items.key_word    主键
+     * @apiSuccess {int}    items.type        banner类型
+     * @apiSuccess {array}  items.img         图片数组
      * @apiSuccess {string} items.img.url     图片地址
      *
      * @apiUse             BaseResponse

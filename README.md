@@ -6,13 +6,13 @@
 用了apidoc ，项目地址：https://github.com/apidoc/apidoc
 >使用
 
-1）你要有node环境，用npm管理工具
+* 1）node环境，用npm管理工具
 
-2）全局安装npm install apidoc -g (用淘宝cnpm)
+* 2）全局安装npm install apidoc -g (用淘宝cnpm)
 
-3) 项目目录下 ./apidocbulid
+* 3）项目目录下 ./apidocbulid
 
-4) 访问public/apidoc
+* 4）访问public/apidoc
 
 
 ### 旧在线文档

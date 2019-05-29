@@ -31,6 +31,36 @@ class Order extends BaseController
         'needPrimaryScope'=>['only'=>'getSummaryByUser,getDetail']
     ];
 
+    /**
+     * 下单
+     * @author: zzhpeng
+     * Date: 2019/5/29
+     * @return \think\response\Json
+     * @throws \app\lib\exception\ParameterException
+     * @throws \app\lib\exception\TokenException
+     * @throws \think\Exception
+     *
+     * @api                {POST}  /api/v1/order 下单
+     * @apiName            placeOrder
+     * @apiGroup           Order
+     * @apiVersion         0.0.1
+     * @apiSampleRequest   /api/v1/order
+     * @apiDescription     下单
+     *
+     * @apiParam {array} products 	订单的产品id和产品数量的数组
+     * @apiParam {int} products.product_id 	products数组下的产品id
+     * @apiParam {int} products.count 	products数组下的产品数量
+     *
+     * @apiSuccess {string} order_id
+     * @apiSuccess {string} order_no
+     * @apiSuccess {string} create_time
+     * @apiSuccess {bool} pass
+     *
+     * @apiUse             BaseResponse
+     *
+     * @apiUse             SuccessResponse
+     * @apiUse             FailResponse
+     */
     public function placeOrder(){
         (new OrderPlace())->goCheck();
         $products = input('post.products/a');
@@ -41,6 +71,17 @@ class Order extends BaseController
         return json($status);
     }
 
+    /**
+     * @author: zzhpeng
+     * Date: 2019/5/29
+     * @param int $pages
+     * @param int $size
+     *
+     * @return array|\think\response\Json
+     * @throws \app\lib\exception\ParameterException
+     * @throws \app\lib\exception\TokenException
+     * @throws \think\Exception
+     */
     public function getSummaryByUser($pages = 1, $size=15){
         (new PagingParameter())->goCheck();
         $uid =Token::getCurrentTokenVar('uid');
@@ -59,6 +100,17 @@ class Order extends BaseController
         ]);
     }
 
+    /**
+     * @author: zzhpeng
+     * Date: 2019/5/29
+     * @param int $pages
+     * @param int $size
+     *
+     * @return array|\think\response\Json
+     * @throws \app\lib\exception\ParameterException
+     * @throws \app\lib\exception\TokenException
+     * @throws \think\Exception
+     */
     public function getDetail($id = 0){
         (new IDMustBePositiveInt())->goCheck();
         $orderDetail = OrderModel::get($id);

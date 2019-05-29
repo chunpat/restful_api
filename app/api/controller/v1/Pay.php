@@ -15,6 +15,37 @@ use app\api\validate\IDMustBePositiveInt;
 
 class Pay  extends BaseController
 {
+    /**
+     * 小程序支付，返回预支付数据
+     * @author: zzhpeng
+     * Date: 2019/5/29
+     * @param string $id
+     *
+     * @return array
+     * @throws \app\lib\exception\ParameterException
+     * @throws \think\Exception
+     *
+     * @api                {POST} /api/v1/pay/pre_order 小程序支付，返回预支付数据
+     * @apiName            pre_order
+     * @apiGroup           Order
+     * @apiVersion         0.0.1
+     * @apiSampleRequest   /api/v1/pay/pre_order
+     * @apiDescription     小程序支付，返回预支付数据
+     *
+     * @apiParam {sting} id 订单id
+     *
+     * @apiSuccess {array} data
+     * @apiSuccess {string} data.timeStamp
+     * @apiSuccess {string} data.nonceStr
+     * @apiSuccess {string} data.package
+     * @apiSuccess {string} data.signType
+     * @apiSuccess {string} data.paySign
+     *
+     * @apiUse             BaseResponse
+     *
+     * @apiUse             SuccessResponse
+     * @apiUse             FailResponse
+     */
     public function pre_order($id = ''){
         (new IDMustBePositiveInt())->goCheck();
         $payService = new PayService($id);
